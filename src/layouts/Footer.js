@@ -12,7 +12,8 @@ const Footer = () => {
       <div className="footer_content">
         <div className="container">
           <p>
-            Copyright © {new Date().getFullYear()}. All rights reserved. <br />
+            Copyright © León Fenzl {new Date().getFullYear()}. All rights
+            reserved. <br />
             Developed by{" "}
             <a
               className="fn__link"

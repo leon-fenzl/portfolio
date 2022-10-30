@@ -7,57 +7,48 @@ const About = () => {
     <section id="about">
       <div className="container">
         <div className="roww">
-          {/* Main Title */}
           <div className="resumo_fn_main_title">
-            <h3 className="subtitle">About Me</h3>
             <h3 className="title">Biography</h3>
-            <p className="desc">
-              {`I'm a Freelancer Front-end Developer with over 12 years
-                        of experience. I'm from San Francisco. I code and create
-                        web elements for amazing people around the world. I like
-                        work with new people. New people are new experiences.`}
-            </p>
           </div>
-          {/* /Main Title */}
-          {/* About Information */}
+
           <div className="resumo_fn_about_info">
             <div className="about_left">
               <table>
                 <tbody>
                   <tr>
                     <th>Name</th>
-                    <th>Bruce Wilson</th>
-                  </tr>
-                  <tr>
-                    <th>Birthday</th>
-                    <th>4th April 1990</th>
+                    <th>Leon Fenzl</th>
                   </tr>
                   <tr>
                     <th>Age</th>
                     <th>31 years</th>
                   </tr>
                   <tr>
-                    <th>Address</th>
-                    <th>San Francisco</th>
-                  </tr>
-                  <tr>
-                    <th>Phone</th>
-                    <th>
-                      <a href="tel:+3846923442364">(+38) 469 2344 2364</a>
-                    </th>
+                    <th>Nationality</th>
+                    <th>Brazilian/Austrian</th>
                   </tr>
                   <tr>
                     <th>Email</th>
                     <th>
-                      <a href="mailto:trendycoder.com@gmail.com">
-                        trendycoder.com@gmail.com
+                      <a href="mailto:leonfenzl@gmail.com">
+                        leonfenzl@gmail.com
                       </a>
                     </th>
                   </tr>
                   <tr>
-                    <th>Skype</th>
+                    <th>Linkedin</th>
                     <th>
-                      <a href="skype:brucewilson.90">brucewilson.90</a>
+                      <a href="https://www.linkedin.com/in/le%C3%B3n-fenzl">
+                        linkedin.com/in/leon-fenzl
+                      </a>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>Art Station</th>
+                    <th>
+                      <a href="https://www.artstation.com/leonfenzl">
+                        artstation.com/leonfenzl
+                      </a>
                     </th>
                   </tr>
                 </tbody>
@@ -66,7 +57,7 @@ const About = () => {
             <div className="about_right">
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
-                <a href="img/cv.jpg" download>
+                <a href="assets/leon-fenzl-cv.pdf" download>
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -99,11 +90,9 @@ const About = () => {
                   <span>Download CV</span>
                 </a>
               </div>
-              {/* /Download CV Button */}
             </div>
           </div>
-          {/* /About Information */}
-          {/* Tabs Shortcode */}
+
           <div className="resumo_fn_tabs">
             {/* Tab: Header */}
             <div className="tab_header">
@@ -120,13 +109,12 @@ const About = () => {
                 </li>
                 <li className={activeList("tab3")}>
                   <a href="#" onClick={() => setToggleList("tab3")}>
-                    Skills
+                    Toolbox
                   </a>
                 </li>
               </ul>
             </div>
-            {/* /Tab: Header */}
-            {/* Tab: Content */}
+
             <div className="tab_content">
               {/* #1 tab content */}
               <div id="tab1" className={`tab_item ${activeList("tab1")}`}>
@@ -136,42 +124,58 @@ const About = () => {
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Frenify LLC</h5>
-                          <span>( 2018 — Today )</span>
+                          <h5>Freelancer - Brasília, Brazil</h5>
+                          <span>( 2016 — Today )</span>
                         </div>
-                        <h3>Sr. Front-end Engineer</h3>
+                        <h3>Gameplay Programmer & 3D Modeler</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                          I have been working as a freelancer for clients in
+                          Brazil and abroad since 2016, focusing in 3D modeling,
+                          riging and overall development using Unity and Godot
                         </p>
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Google LLC</h5>
-                          <span>( 2016 — 2018 )</span>
+                          <h5>SENAC - Brasília, Brazil</h5>
+                          <span>( 10.2022 - Today )</span>
                         </div>
-                        <h3>Front-end Developer</h3>
+                        <h3>Freelance teacher for Godot & Blender</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                          Intermediary level workshops in animation and colision
+                          detection using GdScript from the Godot engine and
+                          modeling using Blender.
                         </p>
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Twitter LLC</h5>
-                          <span>( 2016 — 2011 )</span>
+                          <h5>
+                            Development School Happy Code - Brasília, Brazil
+                          </h5>
+                          <span>( 01.2022 - 08.2022 )</span>
                         </div>
-                        <h3>Graphic Designer</h3>
+                        <h3>Teacher for Unity & C#</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                          Introductory courses for kids and teenagers on Unity
+                          and game development using C# and the Unity scripting
+                          API.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
+                          <h5>Podcast "Jamcast IESB"</h5>
+                          <span>( 2019 - 2020 )</span>
+                        </div>
+                        <h3>Moderator and researcher</h3>
+                        <p>
+                          Podcast created during my time at the university
+                          covering recent developments in the local game
+                          industry.
                         </p>
                       </div>
                     </li>
@@ -179,8 +183,7 @@ const About = () => {
                 </div>
                 {/* /Boxed List */}
               </div>
-              {/* /#1 tab content */}
-              {/* #2 tab content */}
+
               <div id="tab2" className={`tab_item ${activeList("tab2")}`}>
                 {/* Boxed List */}
                 <div className="resumo_fn_boxed_list">
@@ -188,85 +191,80 @@ const About = () => {
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Frenify University</h5>
-                          <span>( 2014 — 2017 )</span>
+                          <h5>IESB University - Brasília, Brazil</h5>
+                          <span>( 2018 - 2021 )</span>
                         </div>
-                        <h3>Computer Science</h3>
+                        <h3>Digital Game Design</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                          My graduation covered key aspects of game development
+                          such as concept & sketching, modeling, riging and
+                          programming using various tools like Unity, ZBrush,
+                          Maya, Photoshop and their respective scripting
+                          languages where available.
+                          <br />I have also developed a solid foundation in
+                          important areas like game psychology, narrative &
+                          storytelling and marketing.
                         </p>
                       </div>
                     </li>
+
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Edu University</h5>
-                          <span>( 2011 — 2014 )</span>
+                          <h5>University of Brasília - Brasília, Brazil</h5>
+                          <span>( 05.2018 - 06.2018 )</span>
                         </div>
-                        <h3>Master Degree</h3>
+                        <h3>Design and Narrative, 64 hours</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                          In this very important course I learned how to guide
+                          users and help them achieve their goals through design
+                          best practices and contextual nudges, using both
+                          graphics and copy.
                         </p>
                       </div>
                     </li>
+
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Clolumbia College</h5>
-                          <span>( 2007 — 2011 )</span>
+                          <h5>Game Total - Brasília, Brazil</h5>
+                          <span>( 2014 - 2015 )</span>
                         </div>
-                        <h3>Bachelor Degree</h3>
+                        <h3>3D Modeling and Game implementation, 500 hours</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                          During this course entered the brave new world of game
+                          design. I learned up to intermediary skills in 3D
+                          modeling, riging and C# development using the Unity
+                          framework.
                         </p>
                       </div>
                     </li>
                   </ul>
                 </div>
-                {/* /Boxed List */}
               </div>
-              {/* /#2 tab content */}
-              {/* #3 tab content */}
               <div id="tab3" className={`tab_item ${activeList("tab3")}`}>
-                {/* Progress Bar */}
                 <div className="resumo_fn_progress_bar">
-                  <div className="progress_item open" data-value={92}>
+                  <div className="progress_item open" data-value={90}>
                     <div className="item_in">
-                      <h3 className="progress_title">Adobe Photoshop</h3>
+                      <h3 className="progress_title">
+                        Modeling (Maya, ZBrush, Modo & Blender)
+                      </h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "8%" }}
+                        style={{ right: "10%" }}
                       >
-                        92%
+                        90%
                       </span>
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "92%" }} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="progress_item open" data-value={95}>
-                    <div className="item_in">
-                      <h3 className="progress_title">HTML5 &amp; CSS3</h3>
-                      <span
-                        className="progress_percent"
-                        style={{ right: "5%" }}
-                      >
-                        95%
-                      </span>
-                      <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "95%" }} />
+                        <div className="progress_bg" style={{ width: "90%" }} />
                       </div>
                     </div>
                   </div>
                   <div className="progress_item open" data-value={80}>
                     <div className="item_in">
-                      <h3 className="progress_title">WordPress</h3>
+                      <h3 className="progress_title">
+                        Riging (Maya & Blender)
+                      </h3>
                       <span
                         className="progress_percent"
                         style={{ right: "20%" }}
@@ -278,31 +276,47 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={85}>
+                  <div className="progress_item open" data-value={75}>
                     <div className="item_in">
-                      <h3 className="progress_title">Adobe Illustrator</h3>
+                      <h3 className="progress_title">
+                        Gameplay programming (Unity, Godot & Unreal)
+                      </h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "15%" }}
+                        style={{ right: "25%" }}
                       >
-                        85%
+                        75%
                       </span>
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "85%" }} />
+                        <div className="progress_bg" style={{ width: "75%" }} />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="progress_item open" data-value={40}>
+                    <div className="item_in">
+                      <h3 className="progress_title">
+                        Concept Art (Pen & Paper, Photoshop & Affinity)
+                      </h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "60%" }}
+                      >
+                        40%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "40%" }} />
                       </div>
                     </div>
                   </div>
                 </div>
 
-                {/* /Progress Bar */}
-                {/* Description */}
                 <div className="resumo_fn_desc">
                   <p>
-                    A freelance creative designer with a love for minimal
-                    design, clean typography and well-written code, located in
-                    San Francisco. Provide high quality and cost effective
-                    offshore web and software development services. Wide range
-                    of web and software development services across the world.
+                    A freelance game designer with a love for clean models
+                    performant games and well-written code, located in Brazil
+                    but available worldwide. I Provide high quality and cost
+                    effective remote game related services.
                   </p>
                 </div>
               </div>

@@ -8,19 +8,17 @@ const Services = () => {
             <h3 className="subtitle">Services</h3>
             <h3 className="title">What I Do</h3>
             <p className="desc">
-              I help ambitious businesses like yours generate more profits by
-              building awareness, driving web traffic, connecting with customers
-              and growing overall sales.
+              I am a generalist 3D designer and can help your project designing,
+              modelling and developing, both solo or in teams.
             </p>
           </div>
-          {/* /Main Title */}
-          {/* Services List */}
+
           <div className="resumo_fn_service_list">
             <ul>
               <li>
                 <div className="item">
                   <div className="item_left">
-                    <h3>Brand Consultant</h3>
+                    <h3>Concept/sketching</h3>
                     <p>
                       I build brands through cultural insights &amp; strategic
                       vision. Custom crafted business solutions.
@@ -64,7 +62,6 @@ const Services = () => {
               </li>
             </ul>
           </div>
-          {/* /Services List */}
         </div>
       </div>
     </section>

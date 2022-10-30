@@ -37,8 +37,7 @@ const News = () => {
             <h3 className="subtitle">News &amp; Tips</h3>
             <h3 className="title">Latest Articles</h3>
           </div>
-          {/* /Main Title */}
-          {/* Blog List */}
+
           <div className="resumo_fn_blog_list">
             <ul className="modal_items" data-from="blog" data-count={5}>
               <li>

@@ -5,16 +5,13 @@ const Home = () => {
         <div className="roww">
           {/* Main Title */}
           <div className="resumo_fn_main_title">
-            <h3 className="subtitle">Introduction</h3>
-            <h3 className="title">3D Modeler</h3>
+            <h3 className="title">León Fenzl - Game designer</h3>
             <p className="desc">
-              I design and develop services for customers of all sizes,
-              specializing in creating stylish, modern websites, web services
-              and online stores.
+              {`I'm a generalist 3D modeler and gameplay programmer.
+              I offer a wide range of services, from modeling, riging 
+              and animation up to development in C#, Blueprint & GDScript.`}
             </p>
-            <img src="img/signature.png" alt="image" />
           </div>
-          {/* /Main Title */}
         </div>
       </div>
     </section>

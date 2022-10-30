@@ -4,7 +4,7 @@ const PanelContent = () => {
   useEffect(() => {
     const Typed = require("typed.js");
     new Typed(".animated_title", {
-      strings: ["Leon Fenzl", "3D Modeler", "Developer", "Artist"],
+      strings: ["León Fenzl", "3D Modeler", "Developer", "Artist"],
       loop: true,
       smartBackspace: false,
       typeSpeed: 40,
@@ -31,9 +31,9 @@ const PanelContent = () => {
       <div className="right_bottom">
         <a href="#contact">
           <span className="circle" />
-          <span className="text">
-            I'm available for a freelance job. Hire me
-          </span>
+          {/* <span className="text">
+            Available for a freelance job. Hire me
+          </span> */}
         </a>
       </div>
     </div>
