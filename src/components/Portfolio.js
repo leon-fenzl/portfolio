@@ -46,32 +46,24 @@ const Portfolio = () => {
                 <div className="abs_img" data-bg-img="img/portfolio/1.jpg" />
               </div>
               <div className="title_holder">
-                <p>illustration, design</p>
+                <p>3d modeling, rigging, animation</p>
                 <h3>
-                  <a href="#">Sweet Cherry</a>
+                  <a href="#">Fan made Pokéball</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">illustration, design</p>
-                <h3 className="fn__title">Sweet Cherry</h3>
+                <p className="fn__cat">3d modeling, rigging, animation</p>
+                <h3 className="fn__title">Fan made Pokéball</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
                   <div className="abs_img" data-bg-img="img/portfolio/1.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
+                It wouldn`t be a portfolio without some piece representing some of my childhood.
+                Gotta Catch 'Em All!
+
+                This is a purely fan-made piece. 
+                I do not own any rights regarding Pokémon and the companys envolved"
                 </p>
               </div>
             </SwiperSlide>
@@ -88,49 +80,23 @@ const Portfolio = () => {
                 <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
               </div>
               <div className="title_holder">
-                <p>web, mobile, online</p>
+                <p>cartoon, anatomy, study</p>
                 <h3>
-                  <a href="#">Delicious Fruit</a>
+                  <a href="#">Male Elves</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">web, mobile, online</p>
-                <h3 className="fn__title">Delicious Fruit</h3>
+                <p className="fn__cat">cartoon, anatomy, study</p>
+                <h3 className="fn__title">Male Elves</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
                   <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
+                  Sculpture portrait study, made on Blender.
                 </p>
                 <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
+                  Sculpture portrait study, made on Blender.
                 </p>
               </div>
             </SwiperSlide>
