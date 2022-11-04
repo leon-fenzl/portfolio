@@ -31,14 +31,14 @@ const About = () => {
                     <th>Email</th>
                     <th>
                       <a href="mailto:leonfenzl@gmail.com">
-                        leonfenzl@gmail.com
+                        leon.gameworks@gmail.com
                       </a>
                     </th>
                   </tr>
                   <tr>
                     <th>Linkedin</th>
                     <th>
-                      <a href="https://www.linkedin.com/in/le%C3%B3n-fenzl">
+                      <a href="https://www.linkedin.com/in/leon-fenzl">
                         linkedin.com/in/leon-fenzl
                       </a>
                     </th>
@@ -46,8 +46,8 @@ const About = () => {
                   <tr>
                     <th>Art Station</th>
                     <th>
-                      <a href="https://www.artstation.com/leonfenzl">
-                        artstation.com/leonfenzl
+                      <a href="https://leonfenzl.artstation.com">
+                        leonfenzl.arstation.com
                       </a>
                     </th>
                   </tr>
