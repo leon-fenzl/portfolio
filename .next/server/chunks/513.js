@@ -79,7 +79,7 @@ const About = ()=>{
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("th", {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                             href: "mailto:leonfenzl@gmail.com",
-                                                            children: "leonfenzl@gmail.com"
+                                                            children: "leon.gameworks@gmail.com"
                                                         })
                                                     })
                                                 ]
@@ -91,7 +91,7 @@ const About = ()=>{
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("th", {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                            href: "https://www.linkedin.com/in/le%C3%B3n-fenzl",
+                                                            href: "https://www.linkedin.com/in/leon-fenzl",
                                                             children: "linkedin.com/in/leon-fenzl"
                                                         })
                                                     })
@@ -104,8 +104,8 @@ const About = ()=>{
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("th", {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                            href: "https://www.artstation.com/leonfenzl",
-                                                            children: "artstation.com/leonfenzl"
+                                                            href: "https://leonfenzl.artstation.com",
+                                                            children: "leonfenzl.arstation.com"
                                                         })
                                                     })
                                                 ]
