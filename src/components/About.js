@@ -30,7 +30,7 @@ const About = () => {
                   <tr>
                     <th>Email</th>
                     <th>
-                      <a href="mailto:leonfenzl@gmail.com">
+                      <a href="mailto:leon.gameworks@gmail.com">
                         leon.gameworks@gmail.com
                       </a>
                     </th>
@@ -57,7 +57,7 @@ const About = () => {
             <div className="about_right">
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
-                <a href="assets/leon-fenzl-cv.pdf" download>
+                <a href="img\cv-leon_fenzl.pdf" download>
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

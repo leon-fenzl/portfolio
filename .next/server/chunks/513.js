@@ -78,7 +78,7 @@ const About = ()=>{
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("th", {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                            href: "mailto:leonfenzl@gmail.com",
+                                                            href: "mailto:leon.gameworks@gmail.com",
                                                             children: "leon.gameworks@gmail.com"
                                                         })
                                                     })
@@ -119,7 +119,7 @@ const About = ()=>{
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "resumo_fn_cv_btn",
                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                                        href: "assets/leon-fenzl-cv.pdf",
+                                        href: "img\\cv-leon_fenzl.pdf",
                                         download: true,
                                         children: [
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
