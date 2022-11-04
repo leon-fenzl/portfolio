@@ -38,7 +38,7 @@ const About = () => {
                   <tr>
                     <th>Linkedin</th>
                     <th>
-                      <a href="https://www.linkedin.com/in/leon-fenzl">
+                      <a href="https://www.linkedin.com/in/leon-fenzl" target="_blank">
                         linkedin.com/in/leon-fenzl
                       </a>
                     </th>
@@ -46,7 +46,7 @@ const About = () => {
                   <tr>
                     <th>Art Station</th>
                     <th>
-                      <a href="https://leonfenzl.artstation.com">
+                      <a href="https://leonfenzl.artstation.com" target="_blank">
                         leonfenzl.arstation.com
                       </a>
                     </th>
