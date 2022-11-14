@@ -2293,7 +2293,7 @@ const PanelContent = ()=>{
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: "abs_img",
-                                "data-bg-img": "img/right.jpg"
+                                "data-bg-img": "img/captureportrait.PNG"
                             })
                         ]
                     }),
