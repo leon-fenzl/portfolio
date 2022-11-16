@@ -714,53 +714,50 @@ const Modalbox = ({ close , value  })=>{
             ]
         },
         {
-            name: "Male Elves",
+            name: "Male Elf",
             tag: "cartoon, anatomy, study",
             desc: [
                 {
-                    p: "Sculpture portrait study, made on Blender."
+                    p: "Sculpture portrait study, made in Blender."
                 }
             ]
         },
         {
-            name: "Ice Cream",
-            tag: "mobile, design",
+            name: "Female Elf 1",
+            tag: "cartoon, anatomy, study",
             desc: [
                 {
-                    p: "Sed ornare tellus a odio bibendum, at tristique sapien malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in."
+                    p: ""
                 }
             ]
         },
         {
-            name: "Blue Lemon",
-            tag: "design, vector",
+            name: "Female Elf 2",
+            tag: "cartoon, anatomy, study",
             desc: [
                 {
-                    p: "Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Integer ornare fringilla arcu, eu mattis risus convallis in."
+                    p: "sculpture portrait study, made in Blender."
+                }
+            ]
+        },
+        {
+            name: "Blender Sculpting Test",
+            tag: "sculpture",
+            desc: [
+                {
+                    p: "Sculprute test in Blender"
+                }
+            ]
+        },
+        {
+            name: "",
+            tag: "",
+            desc: [
+                {
+                    p: ""
                 },
                 {
-                    p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in. Sed ornare tellus a odio bibendum, at tristique sapien malesuada."
-                }
-            ]
-        },
-        {
-            name: "Ice Cream",
-            tag: "mobile, design",
-            desc: [
-                {
-                    p: "Sed ornare tellus a odio bibendum, at tristique sapien malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in."
-                }
-            ]
-        },
-        {
-            name: "Yellow Phone",
-            tag: "mobile, design",
-            desc: [
-                {
-                    p: "Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Integer ornare fringilla arcu, eu mattis risus convallis in."
-                },
-                {
-                    p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in. Sed ornare tellus a odio bibendum, at tristique sapien malesuada."
+                    p: ""
                 }
             ]
         }
@@ -1751,7 +1748,7 @@ const Portfolio = ()=>{
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "abs_img",
-                                                "data-bg-img": "img/portfolio/1.jpg"
+                                                "data-bg-img": "img/portfolio/pokeball.jpg"
                                             })
                                         ]
                                     }),
@@ -1789,13 +1786,13 @@ const Portfolio = ()=>{
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/1.jpg"
+                                                        "data-bg-img": "img/portfolio/pokeball.jpg"
                                                     })
                                                 ]
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "It wouldn`t be a portfolio without some piece representing some of my childhood. Gotta Catch 'Em All! This is a purely fan-made piece. I do not own any rights regarding Pok\xe9mon and the companys envolved\""
+                                                children: "It wouldn`t be a portfolio without some piece representing some of my childhood. Gotta Catch 'Em All! This is a purely fan-made piece. I do not own any rights regarding Pok\xe9mon and the companys envolved."
                                             })
                                         ]
                                     })
@@ -1805,9 +1802,9 @@ const Portfolio = ()=>{
                                 className: "item modal_item",
                                 onClick: ()=>{
                                     setModal(true);
-                                    setModalValue(3);
+                                    setModalValue(2);
                                 },
-                                "data-index": 3,
+                                "data-index": 2,
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "img_holder",
@@ -1831,7 +1828,7 @@ const Portfolio = ()=>{
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     href: "#",
-                                                    children: "Male Elves"
+                                                    children: "Male Elf"
                                                 })
                                             })
                                         ]
@@ -1845,7 +1842,7 @@ const Portfolio = ()=>{
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 className: "fn__title",
-                                                children: "Male Elves"
+                                                children: "Male Elf"
                                             }),
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                 className: "img_holder",
@@ -1856,7 +1853,7 @@ const Portfolio = ()=>{
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/2.jpg"
+                                                        "data-bg-img": "img/portfolio/maleelf.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1876,9 +1873,9 @@ const Portfolio = ()=>{
                                 className: "item modal_item",
                                 onClick: ()=>{
                                     setModal(true);
-                                    setModalValue(2);
+                                    setModalValue(3);
                                 },
-                                "data-index": 2,
+                                "data-index": 3,
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "img_holder",
@@ -1889,7 +1886,7 @@ const Portfolio = ()=>{
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "abs_img",
-                                                "data-bg-img": "img/portfolio/3.jpg"
+                                                "data-bg-img": "img/portfolio/femaleelf1.jpg"
                                             })
                                         ]
                                     }),
@@ -1897,12 +1894,12 @@ const Portfolio = ()=>{
                                         className: "title_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                children: "design, vector"
+                                                children: "cartoon, anatomy, study"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     href: "#",
-                                                    children: "Blue Lemon"
+                                                    children: "Female Elf 1"
                                                 })
                                             })
                                         ]
@@ -1912,11 +1909,11 @@ const Portfolio = ()=>{
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__cat",
-                                                children: "design, vector"
+                                                children: "cartoon, anatomy, study"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 className: "fn__title",
-                                                children: "Blue Lemon"
+                                                children: "Female Elf 1"
                                             }),
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                 className: "img_holder",
@@ -1927,17 +1924,17 @@ const Portfolio = ()=>{
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/3.jpg"
+                                                        "data-bg-img": "img/portfolio/femaleelf1.jpg"
                                                     })
                                                 ]
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Sed ornare tellus a odio bibendum, at tristique sapien malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in."
+                                                children: "Cartoon portrait study."
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Quisque dui metus, eleifend at enim ac, imperdiet sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet, pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue, mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem porttitor eu."
+                                                children: "Cartoon portrait study."
                                             })
                                         ]
                                     })
@@ -1960,7 +1957,7 @@ const Portfolio = ()=>{
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "abs_img",
-                                                "data-bg-img": "img/portfolio/4.jpg"
+                                                "data-bg-img": "img/portfolio/femaleelf2.jpg"
                                             })
                                         ]
                                     }),
@@ -1968,12 +1965,12 @@ const Portfolio = ()=>{
                                         className: "title_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                children: "mobile, design"
+                                                children: "cartoon, anatomy, study"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     href: "#",
-                                                    children: "Yellow Phone"
+                                                    children: "Female Elf 2"
                                                 })
                                             })
                                         ]
@@ -1983,11 +1980,11 @@ const Portfolio = ()=>{
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__cat",
-                                                children: "mobile, design"
+                                                children: "cartoon, anatomy, study"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 className: "fn__title",
-                                                children: "Yellow Phone"
+                                                children: "Female Elf 2"
                                             }),
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                 className: "img_holder",
@@ -1998,17 +1995,17 @@ const Portfolio = ()=>{
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/4.jpg"
+                                                        "data-bg-img": "img/portfolio/femaleelf2.jpg"
                                                     })
                                                 ]
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Sed ornare tellus a odio bibendum, at tristique sapien malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in."
+                                                children: "A somewhat more anatomical cartoon portrait study."
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Quisque dui metus, eleifend at enim ac, imperdiet sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet, pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue, mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem porttitor eu."
+                                                children: "A somewhat more anatomical cartoon portrait study."
                                             })
                                         ]
                                     })
@@ -2031,7 +2028,7 @@ const Portfolio = ()=>{
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "abs_img",
-                                                "data-bg-img": "img/portfolio/5.jpg"
+                                                "data-bg-img": "img/portfolio/sculptTest.jpg"
                                             })
                                         ]
                                     }),
@@ -2069,17 +2066,17 @@ const Portfolio = ()=>{
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/5.jpg"
+                                                        "data-bg-img": "img/portfolio/sculptTest.jpg"
                                                     })
                                                 ]
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Sed ornare tellus a odio bibendum, at tristique sapien malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in."
+                                                children: "Test to see how far Blender can go with sculpture."
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Quisque dui metus, eleifend at enim ac, imperdiet sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet, pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue, mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem porttitor eu."
+                                                children: "Test to see how far Blender can go with sculpture."
                                             })
                                         ]
                                     })
@@ -2293,7 +2290,7 @@ const PanelContent = ()=>{
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: "abs_img",
-                                "data-bg-img": "img/captureportrait.PNG"
+                                "data-bg-img": "img/cpt.PNG"
                             })
                         ]
                     }),

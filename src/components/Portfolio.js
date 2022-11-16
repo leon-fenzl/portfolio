@@ -43,7 +43,7 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/1.jpg" />
+                <div className="abs_img" data-bg-img="img/portfolio/pokeball.jpg" />
               </div>
               <div className="title_holder">
                 <p>3d modeling, rigging, animation</p>
@@ -56,47 +56,14 @@ const Portfolio = () => {
                 <h3 className="fn__title">Fan made Pokéball</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/1.jpg" />
+                  <div className="abs_img" data-bg-img="img/portfolio/pokeball.jpg" />
                 </div>
                 <p className="fn__desc">
-                It wouldn`t be a portfolio without some piece representing some of my childhood.
-                Gotta Catch 'Em All!
+                  It wouldn`t be a portfolio without some piece representing some of my childhood.
+                  Gotta Catch 'Em All!
 
-                This is a purely fan-made piece. 
-                I do not own any rights regarding Pokémon and the companys envolved"
-                </p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide
-              className="item modal_item"
-              onClick={() => {
-                setModal(true);
-                setModalValue(3);
-              }}
-              data-index={3}
-            >
-              <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
-              </div>
-              <div className="title_holder">
-                <p>cartoon, anatomy, study</p>
-                <h3>
-                  <a href="#">Male Elves</a>
-                </h3>
-              </div>
-              <div className="fn__hidden">
-                <p className="fn__cat">cartoon, anatomy, study</p>
-                <h3 className="fn__title">Male Elves</h3>
-                <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
-                </div>
-                <p className="fn__desc">
-                  Sculpture portrait study, made on Blender.
-                </p>
-                <p className="fn__desc">
-                  Sculpture portrait study, made on Blender.
+                  This is a purely fan-made piece. 
+                  I do not own any rights regarding Pokémon and the companys envolved.
                 </p>
               </div>
             </SwiperSlide>
@@ -110,52 +77,59 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/3.jpg" />
+                <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
               </div>
               <div className="title_holder">
-                <p>design, vector</p>
+                <p>cartoon, anatomy, study</p>
                 <h3>
-                  <a href="#">Blue Lemon</a>
+                  <a href="#">Male Elf</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">design, vector</p>
-                <h3 className="fn__title">Blue Lemon</h3>
+                <p className="fn__cat">cartoon, anatomy, study</p>
+                <h3 className="fn__title">Male Elf</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/3.jpg" />
+                  <div className="abs_img" data-bg-img="img/portfolio/maleelf.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
+                  Sculpture portrait study, made on Blender.
                 </p>
                 <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
+                  Sculpture portrait study, made on Blender.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              className="item modal_item"
+              onClick={() => {
+                setModal(true);
+                setModalValue(3);
+              }}
+              data-index={3}
+            >
+              <div className="img_holder">
+                <img src="img/thumb/square.jpg" alt="image" />
+                <div className="abs_img" data-bg-img="img/portfolio/femaleelf1.jpg" />
+              </div>
+              <div className="title_holder">
+                <p>cartoon, anatomy, study</p>
+                <h3>
+                  <a href="#">Female Elf 1</a>
+                </h3>
+              </div>
+              <div className="fn__hidden">
+                <p className="fn__cat">cartoon, anatomy, study</p>
+                <h3 className="fn__title">Female Elf 1</h3>
+                <div className="img_holder">
+                  <img src="img/thumb/square.jpg" alt="image" />
+                  <div className="abs_img" data-bg-img="img/portfolio/femaleelf1.jpg" />
+                </div>
+                <p className="fn__desc">
+                  Cartoon portrait study.
+                </p>
+                <p className="fn__desc">
+                  Cartoon portrait study.
                 </p>
               </div>
             </SwiperSlide>
@@ -169,52 +143,26 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
+                <div className="abs_img" data-bg-img="img/portfolio/femaleelf2.jpg" />
               </div>
               <div className="title_holder">
-                <p>mobile, design</p>
+                <p>cartoon, anatomy, study</p>
                 <h3>
-                  <a href="#">Yellow Phone</a>
+                  <a href="#">Female Elf 2</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">mobile, design</p>
-                <h3 className="fn__title">Yellow Phone</h3>
+                <p className="fn__cat">cartoon, anatomy, study</p>
+                <h3 className="fn__title">Female Elf 2</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
+                  <div className="abs_img" data-bg-img="img/portfolio/femaleelf2.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
+                  A somewhat more anatomical cartoon portrait study.
                 </p>
                 <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
+                  A somewhat more anatomical cartoon portrait study.
                 </p>
               </div>
             </SwiperSlide>
@@ -228,7 +176,7 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/5.jpg" />
+                <div className="abs_img" data-bg-img="img/portfolio/sculptTest.jpg" />
               </div>
               <div className="title_holder">
                 <p>mobile, design</p>
@@ -241,39 +189,13 @@ const Portfolio = () => {
                 <h3 className="fn__title">Ice Cream</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/5.jpg" />
+                  <div className="abs_img" data-bg-img="img/portfolio/sculptTest.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
+                  Test to see how far Blender can go with sculpture.
                 </p>
                 <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
+                  Test to see how far Blender can go with sculpture.
                 </p>
               </div>
             </SwiperSlide>
