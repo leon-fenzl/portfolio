@@ -666,7 +666,7 @@ const Home = ()=>{
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                             className: "title",
-                            children: "Le\xf3n Fenzl - Game designer"
+                            children: "Le\xf3n Fenzl - Game Developer"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                             className: "desc",
