@@ -745,7 +745,7 @@ const Modalbox = ({ close , value  })=>{
             tag: "3d modeling, rigging, animation",
             desc: [
                 {
-                    p: "Comission from artist Lynn Carone"
+                    p: "Comission for artist Lynn Carone, to her video about the Samsara circle."
                 }
             ]
         } /*,
@@ -1744,7 +1744,8 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/1.jpg"
+                                                className: "abs_img",
+                                                "data-bg-img": "img/portfolio/1.jpg"
                                             })
                                         ]
                                     }),
@@ -1781,7 +1782,8 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/1.jpg"
+                                                        className: "abs_img",
+                                                        "data-bg-img": "img/portfolio/1.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1809,7 +1811,8 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/2.jpg"
+                                                className: "abs_img",
+                                                "data-bg-img": "img/portfolio/2.jpg"
                                             })
                                         ]
                                     }),
@@ -1846,7 +1849,8 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/2.jpg"
+                                                        className: "abs_img",
+                                                        "data-bg-img": "img/portfolio/2.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1878,7 +1882,8 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/3.jpg"
+                                                className: "abs_img",
+                                                "data-bg-img": "img/portfolio/3.jpg"
                                             })
                                         ]
                                     }),
@@ -1915,7 +1920,8 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/3.jpg"
+                                                        className: "abs_img",
+                                                        "data-bg-img": "img/portfolio/3.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1947,7 +1953,8 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/4.jpg"
+                                                className: "abs_img",
+                                                "data-bg-img": "img/portfolio/4.jpg"
                                             })
                                         ]
                                     }),
@@ -1984,7 +1991,8 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/4.jpg"
+                                                        className: "abs_img",
+                                                        "data-bg-img": "img/portfolio/4.jpg"
                                                     })
                                                 ]
                                             }),
@@ -2016,7 +2024,8 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/5.jpg"
+                                                className: "abs_img",
+                                                "data-bg-img": "img/portfolio/5.jpg"
                                             })
                                         ]
                                     }),
@@ -2053,17 +2062,18 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/5.jpg"
+                                                        className: "abs_img",
+                                                        "data-bg-img": "img/portfolio/5.jpg"
                                                     })
                                                 ]
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Comission from artist Lynn Carone, to her video about the Samsara circle."
+                                                children: "Comission for artist Lynn Carone, to her video about the Samsara circle."
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Comission from artist Lynn Carone, to her video about the Samsara circle."
+                                                children: "Comission for artist Lynn Carone, to her video about the Samsara circle."
                                             })
                                         ]
                                     })

@@ -38,7 +38,7 @@ const Modalbox = ({ close, value }) => {
       name: "Canary - Comission",
       tag: "3d modeling, rigging, animation",
       desc: [
-        { p: "Comission from artist Lynn Carone" }
+        { p: "Comission for artist Lynn Carone, to her video about the Samsara circle." }
       ]
 
     }/*,
