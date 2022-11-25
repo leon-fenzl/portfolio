@@ -1709,11 +1709,11 @@ const Portfolio = ()=>{
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                 className: "subtitle",
-                                children: "Portfolio"
+                                children: "Some of my works"
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                 className: "title",
-                                children: "Featured Projects"
+                                children: "3D Models"
                             })
                         ]
                     })
@@ -1740,12 +1740,11 @@ const Portfolio = ()=>{
                                         className: "img_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "img/thumb/square.jpg",
+                                                src: "img/thumb/1.jpg",
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/1.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/1.jpg"
                                             })
                                         ]
                                     }),
@@ -1778,12 +1777,11 @@ const Portfolio = ()=>{
                                                 className: "img_holder",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                        src: "img/thumb/square.jpg",
+                                                        src: "img/thumb/1.jpg",
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/1.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/1.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1807,12 +1805,11 @@ const Portfolio = ()=>{
                                         className: "img_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "img/thumb/square.jpg",
+                                                src: "img/thumb/2.jpg",
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/2.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/2.jpg"
                                             })
                                         ]
                                     }),
@@ -1845,12 +1842,11 @@ const Portfolio = ()=>{
                                                 className: "img_holder",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                        src: "img/thumb/square.jpg",
+                                                        src: "img/thumb/2.jpg",
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/2.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/2.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1878,12 +1874,11 @@ const Portfolio = ()=>{
                                         className: "img_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "img/thumb/square.jpg",
+                                                src: "img/thumb/3.jpg",
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/3.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/3.jpg"
                                             })
                                         ]
                                     }),
@@ -1916,12 +1911,11 @@ const Portfolio = ()=>{
                                                 className: "img_holder",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                        src: "img/thumb/square.jpg",
+                                                        src: "img/thumb/3.jpg",
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/3.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/3.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1949,12 +1943,11 @@ const Portfolio = ()=>{
                                         className: "img_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "img/thumb/square.jpg",
+                                                src: "img/thumb/4.jpg",
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/4.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/4.jpg"
                                             })
                                         ]
                                     }),
@@ -1987,12 +1980,11 @@ const Portfolio = ()=>{
                                                 className: "img_holder",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                        src: "img/thumb/square.jpg",
+                                                        src: "img/thumb/4.jpg",
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/4.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/4.jpg"
                                                     })
                                                 ]
                                             }),
@@ -2020,12 +2012,11 @@ const Portfolio = ()=>{
                                         className: "img_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "img/thumb/square.jpg",
+                                                src: "img/thumb/5.jpg",
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/5.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/5.jpg"
                                             })
                                         ]
                                     }),
@@ -2058,12 +2049,11 @@ const Portfolio = ()=>{
                                                 className: "img_holder",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                        src: "img/thumb/square.jpg",
+                                                        src: "img/thumb/5.jpg",
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/5.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/5.jpg"
                                                     })
                                                 ]
                                             }),
