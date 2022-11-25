@@ -20,8 +20,8 @@ const Portfolio = () => {
                 <span />
               </a>
             </div>
-            <h3 className="subtitle">Portfolio</h3>
-            <h3 className="title">Featured Projects</h3>
+            <h3 className="subtitle">Some of my works</h3>
+            <h3 className="title">3D Models</h3>
           </div>
           {/* /Main Title */}
         </div>
@@ -42,8 +42,8 @@ const Portfolio = () => {
               data-index={1}
             >
               <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/1.jpg" />
+                <img src="img/thumb/1.jpg" alt="image" />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/1.jpg" />
               </div>
               <div className="title_holder">
                 <p>3d modeling, rigging, animation</p>
@@ -55,8 +55,8 @@ const Portfolio = () => {
                 <p className="fn__cat">3d modeling, rigging, animation</p>
                 <h3 className="fn__title">Fan made Pokéball</h3>
                 <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/1.jpg" />
+                  <img src="img/thumb/1.jpg" alt="image" />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/1.jpg" />
                 </div>
                 <p className="fn__desc">
                   It wouldn`t be a portfolio without some piece representing some of my childhood.
@@ -76,8 +76,8 @@ const Portfolio = () => {
               data-index={2}
             >
               <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
+                <img src="img/thumb/2.jpg" alt="image" />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/2.jpg" />
               </div>
               <div className="title_holder">
                 <p>cartoon, anatomy, study</p>
@@ -89,8 +89,8 @@ const Portfolio = () => {
                 <p className="fn__cat">cartoon, anatomy, study</p>
                 <h3 className="fn__title">Male Elf</h3>
                 <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
+                  <img src="img/thumb/2.jpg" alt="image" />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/2.jpg" />
                 </div>
                 <p className="fn__desc">
                   Sculpture portrait study, made on Blender.
@@ -109,8 +109,8 @@ const Portfolio = () => {
               data-index={3}
             >
               <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/3.jpg" />
+                <img src="img/thumb/3.jpg" alt="image" />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/3.jpg" />
               </div>
               <div className="title_holder">
                 <p>cartoon, anatomy, study</p>
@@ -122,8 +122,8 @@ const Portfolio = () => {
                 <p className="fn__cat">cartoon, anatomy, study</p>
                 <h3 className="fn__title">Female Elf 1</h3>
                 <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/3.jpg" />
+                  <img src="img/thumb/3.jpg" alt="image" />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/3.jpg" />
                 </div>
                 <p className="fn__desc">
                   Cartoon portrait study.
@@ -142,8 +142,8 @@ const Portfolio = () => {
               data-index={4}
             >
               <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
+                <img src="img/thumb/4.jpg" alt="image" />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/4.jpg" />
               </div>
               <div className="title_holder">
                 <p>cartoon, anatomy, study</p>
@@ -155,8 +155,8 @@ const Portfolio = () => {
                 <p className="fn__cat">cartoon, anatomy, study</p>
                 <h3 className="fn__title">Female Elf 2</h3>
                 <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
+                  <img src="img/thumb/4.jpg" alt="image" />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/4.jpg" />
                 </div>
                 <p className="fn__desc">
                   A somewhat more anatomical cartoon portrait study.
@@ -175,8 +175,8 @@ const Portfolio = () => {
               data-index={5}
             >
               <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/5.jpg" />
+                <img src="img/thumb/5.jpg" alt="image" />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/5.jpg" />
               </div>
               <div className="title_holder">
                 <p>3d modeling, rigging, animation</p>
@@ -188,8 +188,8 @@ const Portfolio = () => {
                 <p className="fn__cat">3d modeling, rigging, animation</p>
                 <h3 className="fn__title">Canary - Comission</h3>
                 <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/5.jpg" />
+                  <img src="img/thumb/5.jpg" alt="image" />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/5.jpg" />
                 </div>
                 <p className="fn__desc">
                   Comission for artist Lynn Carone, to her video about the Samsara circle.
