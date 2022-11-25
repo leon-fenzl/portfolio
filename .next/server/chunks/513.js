@@ -741,26 +741,23 @@ const Modalbox = ({ close , value  })=>{
             ]
         },
         {
-            name: "Blender Sculpting Test",
-            tag: "sculpture",
+            name: "Canary - Comission",
+            tag: "3d modeling, rigging, animation",
             desc: [
                 {
-                    p: "Sculprute test in Blender"
+                    p: "Comission from artist Lynn Carone"
                 }
             ]
-        },
-        {
-            name: "",
-            tag: "",
-            desc: [
-                {
-                    p: ""
-                },
-                {
-                    p: ""
-                }
-            ]
-        }
+        } /*,
+    {
+      name: "",
+      tag: "",
+      desc: [
+        { p: ""},
+        { p: ""}
+      ]
+
+    }*/ 
     ];
     const { 0: index , 1: setIndex  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(value);
     (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
@@ -1747,8 +1744,7 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/pokeball.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/1.jpg"
                                             })
                                         ]
                                     }),
@@ -1785,8 +1781,7 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/pokeball.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/1.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1814,8 +1809,7 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/2.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/2.jpg"
                                             })
                                         ]
                                     }),
@@ -1852,8 +1846,7 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/maleelf.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/2.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1885,8 +1878,7 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/femaleelf1.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/3.jpg"
                                             })
                                         ]
                                     }),
@@ -1923,8 +1915,7 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/femaleelf1.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/3.jpg"
                                                     })
                                                 ]
                                             }),
@@ -1956,8 +1947,7 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/femaleelf2.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/4.jpg"
                                             })
                                         ]
                                     }),
@@ -1994,8 +1984,7 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/femaleelf2.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/4.jpg"
                                                     })
                                                 ]
                                             }),
@@ -2027,8 +2016,7 @@ const Portfolio = ()=>{
                                                 alt: "image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "abs_img",
-                                                "data-bg-img": "img/portfolio/sculptTest.jpg"
+                                                /*className="abs_img"*/ "data-bg-img": "img/portfolio/5.jpg"
                                             })
                                         ]
                                     }),
@@ -2036,12 +2024,12 @@ const Portfolio = ()=>{
                                         className: "title_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                children: "mobile, design"
+                                                children: "3d modeling, rigging, animation"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     href: "#",
-                                                    children: "Ice Cream"
+                                                    children: "Canary - Comission"
                                                 })
                                             })
                                         ]
@@ -2051,11 +2039,11 @@ const Portfolio = ()=>{
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__cat",
-                                                children: "mobile, design"
+                                                children: "3d modeling, rigging, animation"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 className: "fn__title",
-                                                children: "Ice Cream"
+                                                children: "Canary - Comission"
                                             }),
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                 className: "img_holder",
@@ -2065,18 +2053,17 @@ const Portfolio = ()=>{
                                                         alt: "image"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": "img/portfolio/sculptTest.jpg"
+                                                        /*className="abs_img"*/ "data-bg-img": "img/portfolio/5.jpg"
                                                     })
                                                 ]
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Test to see how far Blender can go with sculpture."
+                                                children: "Comission from artist Lynn Carone, to her video about the Samsara circle."
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__desc",
-                                                children: "Test to see how far Blender can go with sculpture."
+                                                children: "Comission from artist Lynn Carone, to her video about the Samsara circle."
                                             })
                                         ]
                                     })
