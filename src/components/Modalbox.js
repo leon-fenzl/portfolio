@@ -35,13 +35,13 @@ const Modalbox = ({ close, value }) => {
 
     },
     {
-      name: "Blender Sculpting Test",
-      tag: "sculpture",
+      name: "Canary - Comission",
+      tag: "3d modeling, rigging, animation",
       desc: [
-        { p: "Sculprute test in Blender" }
+        { p: "Comission from artist Lynn Carone" }
       ]
 
-    },
+    }/*,
     {
       name: "",
       tag: "",
@@ -50,7 +50,7 @@ const Modalbox = ({ close, value }) => {
         { p: ""}
       ]
 
-    }
+    }*/
   ];
 
   const [index, setIndex] = useState(value);
