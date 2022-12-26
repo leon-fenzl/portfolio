@@ -1187,7 +1187,6 @@ a:focus {
 }
 #portfolio .img_holder img{
 	margin-bottom: -24%;
-	opacity: 0 !important;
 	max-height: 370px;
 }
 #portfolio .title_holder{
