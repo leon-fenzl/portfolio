@@ -43,9 +43,7 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/1.jpg" alt="image" />
-                <div
-                  /*className="abs_img"*/ data-bg-img="img/portfolio/1.jpg"
-                />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/1.jpg" />
               </div>
               <div className="title_holder">
                 <p>3d modeling, rigging, animation</p>
@@ -58,15 +56,14 @@ const Portfolio = () => {
                 <h3 className="fn__title">Fan made Pokéball</h3>
                 <div className="img_holder">
                   <img src="img/thumb/1.jpg" alt="image" />
-                  <div
-                    /*className="abs_img"*/ data-bg-img="img/portfolio/1.jpg"
-                  />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/1.jpg" />
                 </div>
                 <p className="fn__desc">
-                  It wouldn`t be a portfolio without some piece representing
-                  some of my childhood. Gotta Catch 'Em All! This is a purely
-                  fan-made piece. I do not own any rights regarding Pokémon and
-                  the companys envolved.
+                  It wouldn`t be a portfolio without some piece representing some of my childhood.
+                  Gotta Catch 'Em All!
+
+                  This is a purely fan-made piece. 
+                  I do not own any rights regarding Pokémon and the companys envolved.
                 </p>
               </div>
             </SwiperSlide>
@@ -80,9 +77,7 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/2.jpg" alt="image" />
-                <div
-                  /*className="abs_img"*/ data-bg-img="img/portfolio/2.jpg"
-                />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/2.jpg" />
               </div>
               <div className="title_holder">
                 <p>cartoon, anatomy, study</p>
@@ -95,9 +90,7 @@ const Portfolio = () => {
                 <h3 className="fn__title">Male Elf</h3>
                 <div className="img_holder">
                   <img src="img/thumb/2.jpg" alt="image" />
-                  <div
-                    /*className="abs_img"*/ data-bg-img="img/portfolio/2.jpg"
-                  />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/2.jpg" />
                 </div>
                 <p className="fn__desc">
                   Sculpture portrait study, made on Blender.
@@ -117,9 +110,7 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/3.jpg" alt="image" />
-                <div
-                  /*className="abs_img"*/ data-bg-img="img/portfolio/3.jpg"
-                />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/3.jpg" />
               </div>
               <div className="title_holder">
                 <p>cartoon, anatomy, study</p>
@@ -132,12 +123,14 @@ const Portfolio = () => {
                 <h3 className="fn__title">Female Elf 1</h3>
                 <div className="img_holder">
                   <img src="img/thumb/3.jpg" alt="image" />
-                  <div
-                    /*className="abs_img"*/ data-bg-img="img/portfolio/3.jpg"
-                  />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/3.jpg" />
                 </div>
-                <p className="fn__desc">Cartoon portrait study.</p>
-                <p className="fn__desc">Cartoon portrait study.</p>
+                <p className="fn__desc">
+                  Cartoon portrait study.
+                </p>
+                <p className="fn__desc">
+                  Cartoon portrait study.
+                </p>
               </div>
             </SwiperSlide>
             <SwiperSlide
@@ -150,9 +143,7 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/4.jpg" alt="image" />
-                <div
-                  /*className="abs_img"*/ data-bg-img="img/portfolio/4.jpg"
-                />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/4.jpg" />
               </div>
               <div className="title_holder">
                 <p>cartoon, anatomy, study</p>
@@ -165,9 +156,7 @@ const Portfolio = () => {
                 <h3 className="fn__title">Female Elf 2</h3>
                 <div className="img_holder">
                   <img src="img/thumb/4.jpg" alt="image" />
-                  <div
-                    /*className="abs_img"*/ data-bg-img="img/portfolio/4.jpg"
-                  />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/4.jpg" />
                 </div>
                 <p className="fn__desc">
                   A somewhat more anatomical cartoon portrait study.
@@ -187,9 +176,7 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/5.jpg" alt="image" />
-                <div
-                  /*className="abs_img"*/ data-bg-img="img/portfolio/5.jpg"
-                />
+                <div /*className="abs_img"*/ data-bg-img="img/portfolio/5.jpg" />
               </div>
               <div className="title_holder">
                 <p>3d modeling, rigging, animation</p>
@@ -202,17 +189,13 @@ const Portfolio = () => {
                 <h3 className="fn__title">Canary - Comission</h3>
                 <div className="img_holder">
                   <img src="img/thumb/5.jpg" alt="image" />
-                  <div
-                    /*className="abs_img"*/ data-bg-img="img/portfolio/5.jpg"
-                  />
+                  <div /*className="abs_img"*/ data-bg-img="img/portfolio/5.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Comission for artist Lynn Carone, to her video about the
-                  Samsara circle.
+                  Comission for artist Lynn Carone, to her video about the Samsara circle.
                 </p>
                 <p className="fn__desc">
-                  Comission for artist Lynn Carone, to her video about the
-                  Samsara circle.
+                  Comission for artist Lynn Carone, to her video about the Samsara circle.
                 </p>
               </div>
             </SwiperSlide>
