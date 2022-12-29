@@ -812,8 +812,7 @@ const Modalbox = ({ close , value  })=>{
                                                         alt: ""
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "abs_img",
-                                                        "data-bg-img": `/img/portfolio/${index}.jpg`
+                                                        className: "abs_img"
                                                     })
                                                 ]
                                             }),
