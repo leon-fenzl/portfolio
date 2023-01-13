@@ -1,7 +1,9 @@
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { portfolioSliderProps } from "../sliderProps";
 import Modalbox from "./Modalbox";
+
 const Portfolio = () => {
   const [modal, setModal] = useState(false);
   const [modalValue, setModalValue] = useState(null);
@@ -223,4 +225,8 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default dynamic(() => Promise.resolve(Portfolio), {
+  ssr: false,
+});
+
+// export default Portfolio;

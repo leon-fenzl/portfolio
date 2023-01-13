@@ -17,11 +17,11 @@
   overflow: scroll;
   height: calc(100% - 0px);
 }
-.resumo_fn_modalbox .img_holder img {
+/* .resumo_fn_modalbox .img_holder img {
   margin-bottom: -50% !important;
   min-width: 100% !important;
   max-height: unset !important;
-}
+} */
 
 #send_message {
   /* border-color: rgba(0, 0, 0, 0.2);
