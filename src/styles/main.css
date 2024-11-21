@@ -1,0 +1,15 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+:root{
+  font-family: "Futura LT";
+  overflow-x: hidden;
+  font-weight: bolder;
+  background-color:#101010 ; 
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 10dvh);
+  /*scrollbar-width: none;*/
+}
