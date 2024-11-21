@@ -1,13 +1,24 @@
-button{
-  border: none;
-  width: 3rem;
-  height: 3rem;
-  background-color: rgba(0, 0, 0, 0);
+.flex-grid{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
-/*Nav*/
+.side1{
+  width: 5rem;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fill;
+}
+.side2{
+  width: 5rem;
+}
+section{
+  width: 100dvw;
+  height: 90dvh;
+}
+/*
 nav{
   z-index: 1;
   position: fixed;
@@ -33,7 +44,6 @@ nav{
   transform: translate(70%, -50%);
   width:30%;
   height: 100%;
-
 }
 .actual-Menu{
   display: flex;
@@ -43,12 +53,8 @@ nav{
   height: fill;
   width: fill;
 }
-.mClose{
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-/*Body*/
+
+
 body{
   position: relative;
 }
@@ -56,19 +62,35 @@ section{
   width: 100dvw;
   height: 100dvh;
 }
+.content-grid{
+  display: grid;
+  grid-template-columns: .5fr 4fr .5fr;
+  grid-template-areas: "side1 centr side2";
+}
+#side1{
+  grid-area: side1;
+  background-color: #B800D8;
+}
+#center{
+  grid-area: centr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#side2{
+  grid-area: side2;
+  background-color: #B800D8;
+}
 .secName{
   font-size: calc(100% + 2dvw);
 }
 #portr{
-  width:50dvh;
+  width:calc(50% * 0.1em);
+  height: 50%;
+  background-color: #B800D8;
 }
 #hero{
   position: relative;
-  width: 100dvw;
-  height: 100dvh;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 .hello-text{
   width: 90%;
@@ -82,45 +104,4 @@ section{
 .areas-text{
   font-size: calc(100% + 1dvw);
 }
-/*Footer*/
-footer{
-  bottom: 0;
-  width: 100dvw;
-  height: 10dvh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.footer-text{
-  font-size: calc(75% + 0.5dvw);
-}
-/*Mobile Configuration*/
-@media screen and (max-width: 720px) {
-  .mLink{
-    display: block;
-  }
-  .mHolder{
-    display: block;
-  }
-  .pcLink{
-    display: none;
-  }
-  #hero{
-    flex-direction: column-reverse;
-  }
-  footer{
-    flex-direction: column;
-  }
-}
-@media screen and (min-width: 720px) {
-  .mLink{
-    display: none;
-  }
-  .mHolder{
-    display: none;
-  }
-  .pcLink{
-    display: block;
-  }
-}
+*/

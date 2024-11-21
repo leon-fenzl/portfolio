@@ -67,7 +67,7 @@
         url('FuturaLT-Condensed.woff') format('woff'),
         url('FuturaLT-Condensed.ttf') format('truetype');
     font-weight: 500;
-    font-style: normal;
+    font-style: condensed;
 }
 
 @font-face {
@@ -235,6 +235,6 @@
         url('FuturaLT-CondensedBold.woff') format('woff'),
         url('FuturaLT-CondensedBold.ttf') format('truetype');
     font-weight: bold;
-    font-style: normal;
+    font-style: condensed;
 }
 
