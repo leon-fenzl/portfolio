@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "https://leonfenzl.com/static/css/main.f855e6bc.css",
-    "main.js": "https://leonfenzl.com/static/js/main.0ec32b5d.js",
-    "static/js/453.1407b060.chunk.js": "https://leonfenzl.com/static/js/453.1407b060.chunk.js",
-    "static/media/logo.svg": "https://leonfenzl.com/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "https://leonfenzl.com/static/css/main.a38cd9a6.css",
+    "main.js": "https://leonfenzl.com/static/js/main.30a3a339.js",
+    "static/media/Caranguejo Rig.PNG": "https://leonfenzl.com/static/media/Caranguejo Rig.ebe0f8af3bbeeb26a679.PNG",
+    "static/media/cpt.png": "https://leonfenzl.com/static/media/cpt.cbd14ee54c36bf0a7345.png",
+    "static/media/canary.jpg": "https://leonfenzl.com/static/media/canary.99dd793aacd173de8cfa.jpg",
+    "static/media/elf1.jpg": "https://leonfenzl.com/static/media/elf1.d7fe9058cec1f1fae247.jpg",
+    "static/media/elf3.jpg": "https://leonfenzl.com/static/media/elf3.4a86c4eb59005c2f9499.jpg",
+    "static/media/sculptest.jpg": "https://leonfenzl.com/static/media/sculptest.dea233b6ea9b31f15f94.jpg",
+    "static/media/elf2.jpg": "https://leonfenzl.com/static/media/elf2.b06a02937c7e8383a620.jpg",
+    "static/media/pokéball.jpg": "https://leonfenzl.com/static/media/pokéball.d753469eb50411d28360.jpg",
     "index.html": "https://leonfenzl.com/index.html",
-    "main.f855e6bc.css.map": "https://leonfenzl.com/static/css/main.f855e6bc.css.map",
-    "main.0ec32b5d.js.map": "https://leonfenzl.com/static/js/main.0ec32b5d.js.map",
-    "453.1407b060.chunk.js.map": "https://leonfenzl.com/static/js/453.1407b060.chunk.js.map"
+    "main.a38cd9a6.css.map": "https://leonfenzl.com/static/css/main.a38cd9a6.css.map",
+    "main.30a3a339.js.map": "https://leonfenzl.com/static/js/main.30a3a339.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.0ec32b5d.js"
+    "static/css/main.a38cd9a6.css",
+    "static/js/main.30a3a339.js"
   ]
 }

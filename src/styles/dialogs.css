@@ -1,0 +1,49 @@
+/*Portfolio Dialog*/
+dialog{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width:90dvw;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: none;
+  scrollbar-width: none;
+  border-radius: 0.2rem;
+}
+.modalProps{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2{
+    color: white;
+  }
+  p{
+    color: white;
+  }
+}
+.dialogContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+img{
+  max-width:70%;
+  display: flex;
+  justify-self: center;
+}
+.fillText{
+  text-align: justify;
+}
+.closeButton{
+  font-size: xx-large;
+  border: none;
+  border-radius: 2.5rem;
+  background-image: url();
+}
