@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     height: 100dvh;
-    width: 20dvw;
+    width: 10rem;
   }
   nav{
     font-size: calc(100% + 1dvw);
@@ -54,7 +54,6 @@ nav{
 .links{
   text-decoration: none;
 }
-
 .btt-section{
   width: 100%;
   height: 10dvh;
