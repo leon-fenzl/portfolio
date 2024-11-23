@@ -48,7 +48,7 @@
 nav{
   width: 100dvw;
   height: 10dvh;
-  position: absolute;
+  position: fixed;
 }
 .links{
   text-decoration: none;
