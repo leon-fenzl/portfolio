@@ -13,6 +13,9 @@
 .bg-yellow{
   background-color:#FEC901 ; 
 }
+.bg-lime{
+  background-color:#DFFF00 ; 
+}
 .bg-bege{
   background-color:#EADEB8 ; 
 }
@@ -33,6 +36,9 @@
 }
 .text-yellow{
   color:#FEC901 ; 
+}
+.text-lime{
+  color: #DFFF00;
 }
 .text-bege{
   color:#EADEB8 ; 

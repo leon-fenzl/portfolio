@@ -1,5 +1,5 @@
 @media screen and (max-width: 720px) {
-  .hero{
+  #hero{
     .content{
       flex-direction: column-reverse;
       justify-content: center;
@@ -78,7 +78,7 @@
     }
   }
 }
-.hero{
+#hero{
   .content{
     justify-content: center;
   }

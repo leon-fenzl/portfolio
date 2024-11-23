@@ -9,12 +9,11 @@ export default function Navbar({className,id}){
   let mobileMenu 
   if (showMenu){
     mobileMenu = 
-    <div className="mHolder bg-yellow">
+    <div className="mHolder bg-lime">
       <img className="btt-menu" onClick={()=> setShowMenu(!showMenu)} src={menu2}/>
       <div className="actual-Menu">
-        <a href="#about" className="mLink links text-dark">About</a>
-        <a href="#2dart" className="mLink links text-dark">2D</a>
-        <a href="#3dart" className="mLink links text-dark">3D</a>
+        <a href="#works" className="mLink links text-dark">Works</a>
+        <a href="#contact" className="mLink links text-dark">Contact</a>
       </div>
     </div>
   }
@@ -24,9 +23,8 @@ export default function Navbar({className,id}){
     <div className="side1"/>
     <div className="content">
       <a href="#" className="links title text-dark">León Fenzl</a>
-      <a href="#about" className="pcLink links text-dark">About</a>
-      <a href="#2dart" className="pcLink links text-dark">2D</a>
-      <a href="#3dart" className="pcLink links text-dark">3D</a>
+      <a href="#works" className="pcLink links text-dark">Works</a>
+      <a href="#contact" className="pcLink links text-dark">Contact</a>
       <img className="mLink links btt-menu show" onClick={()=> setShowMenu(!showMenu)} src={menu1}/>
       {mobileMenu}
     </div>

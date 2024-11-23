@@ -12,10 +12,10 @@ import Works from "./comps/Works";
 export default function App(){
   return(
     <>
-    <Navbar className={"flex-grid bg-yellow"} id={"navbar"}/>
-    <Hero className={"flex-grid hero text-yellow"}/>
-    <Works className={"flex-grid works bg-yellow"}/>
-    <Footer className={"flex-grid bg-bege"}/>
+    <Navbar className={"flex-grid bg-lime"} id={"navbar"}/>
+    <Hero className={"flex-grid text-lime"} id={"hero"}/>
+    <Works className={"flex-grid works text-lime"} id={"works"}/>
+    <Footer className={"flex-grid bg-lime"} id={"contact"}/>
     </>
   );
 };

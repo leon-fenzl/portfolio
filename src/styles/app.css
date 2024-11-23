@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: center;
   width: fill;
+  position: relative;
 }
 .side2{
   width: 5rem;
@@ -17,6 +18,10 @@
 section{
   width: 100dvw;
   height: 90dvh;
+}
+.secName{
+  position: absolute;
+  top: 2rem;
 }
 /*
 nav{

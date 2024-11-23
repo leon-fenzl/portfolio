@@ -49,6 +49,7 @@ nav{
   width: 100dvw;
   height: 10dvh;
   position: fixed;
+  z-index: 1;
 }
 .links{
   text-decoration: none;

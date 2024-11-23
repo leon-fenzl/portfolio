@@ -42,7 +42,7 @@
 footer{
   bottom: 0;
   width: 100dvw;
-  height: 10dvh;
+  height: 25dvh;
   .content{
     width: fill;
     height: fill;

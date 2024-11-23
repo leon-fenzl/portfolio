@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://leonfenzl.com/static/css/main.3a53def5.css",
-    "main.js": "https://leonfenzl.com/static/js/main.dad8d2d8.js",
+    "main.css": "https://leonfenzl.com/static/css/main.98ceba69.css",
+    "main.js": "https://leonfenzl.com/static/js/main.3c13539b.js",
     "static/media/Caranguejo Rig.PNG": "https://leonfenzl.com/static/media/Caranguejo Rig.ebe0f8af3bbeeb26a679.PNG",
     "static/media/cpt.png": "https://leonfenzl.com/static/media/cpt.cbd14ee54c36bf0a7345.png",
     "static/media/canary.jpg": "https://leonfenzl.com/static/media/canary.99dd793aacd173de8cfa.jpg",
@@ -11,11 +11,11 @@
     "static/media/elf2.jpg": "https://leonfenzl.com/static/media/elf2.b06a02937c7e8383a620.jpg",
     "static/media/pokéball.jpg": "https://leonfenzl.com/static/media/pokéball.d753469eb50411d28360.jpg",
     "index.html": "https://leonfenzl.com/index.html",
-    "main.3a53def5.css.map": "https://leonfenzl.com/static/css/main.3a53def5.css.map",
-    "main.dad8d2d8.js.map": "https://leonfenzl.com/static/js/main.dad8d2d8.js.map"
+    "main.98ceba69.css.map": "https://leonfenzl.com/static/css/main.98ceba69.css.map",
+    "main.3c13539b.js.map": "https://leonfenzl.com/static/js/main.3c13539b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a53def5.css",
-    "static/js/main.dad8d2d8.js"
+    "static/css/main.98ceba69.css",
+    "static/js/main.3c13539b.js"
   ]
 }
