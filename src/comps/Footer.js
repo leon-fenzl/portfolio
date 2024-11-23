@@ -6,11 +6,11 @@ export default function Footer({className,id}){
     <footer className={className} id={id}>
       <div className="side1"/>
       <div className="content">
-        <h2 className="footer-text">
+        <h1 className="footer-text text-lime">
           {`leon.gameworks@gmail.com`}
-        </h2>
+        </h1>
         <br/>
-        <p className="footer-text">
+        <p className="footer-text text-lime">
           {`ALL CONTENT BELONGS TO LEÓN FENZL, `} 
           <br/> 
           {`UNLESS STATED OTHERWISE.`}

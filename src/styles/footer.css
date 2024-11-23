@@ -1,22 +1,4 @@
 @media screen and (max-width: 720px) {
-  .mLink{
-    display: block;
-  }
-  .mHolder{
-    display: block;
-  }
-  .btt-menu{
-    border: none;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: rgba(0, 0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .pcLink{
-    display: none;
-  }
   footer{
     .content{
     display: flex;
@@ -25,29 +7,14 @@
     align-items: center;}
   }
 }
-@media screen and (min-width: 720px) {
-  .mLink{
-    display: none;
-  }
-  .mHolder{
-    display: none;
-  }
-  .btt-menu{
-    display: none;
-  }
-  .pcLink{
-    display: block;
-  }
-}
 footer{
   bottom: 0;
   width: 100dvw;
-  height: 25dvh;
+  height: 10dvh;
   .content{
     width: fill;
     height: fill;
-    justify-content: center;
-    gap: 0.05rem;
+    justify-content: space-around;
   }
 }
 .footer-text{

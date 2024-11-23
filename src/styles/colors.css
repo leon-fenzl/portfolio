@@ -1,6 +1,9 @@
 .bg-purple{
  background-color:#4C00BA ; 
 }
+.bg-dark-purple{
+  background-color:#240088 ; 
+ }
 .bg-pink{
   background-color:#B800D8 ; 
 }
@@ -23,7 +26,10 @@
   background-color:#101010 ; 
 }
 .text-purple{
-  color:#4C00BA ; 
+  color:#3200ba ; 
+ }
+.text-dark-purple{
+  color:#240088 ; 
  }
 .text-pink{
   color:#B800D8 ; 
