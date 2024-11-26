@@ -2,13 +2,19 @@ import React from "react";
 import { useState } from "react";
 import Navbar from "./comps/Navbar";
 import Hero from "./comps/Hero";
+import Slider from "./comps/Slider";
 import Sections from "./comps/Sections";
 import Footer from "./comps/Footer"
 import "./styles/main.css"
 import "./styles/app.css"
 import "./styles/imgsadress.css"
 import "./styles/colors.css"
+import "./styles/hero.css"
 export default function App(){
+  const slides = [
+    {url:"../images/portfolio/pokéball.jpg",title:"Pokéball"},
+    {url:"./images/portfolio/elf2.jpg",title:"Sculpture2"},
+  ];
   return(
     <>
       <Navbar className={"flex-grid bg-dark-purple"} id={"navbar"}/>
@@ -18,6 +24,7 @@ export default function App(){
       </Sections>
       <Sections className={"flex-grid text-lime"} id={"works"}>
         <h1 className="secName">Works</h1>
+        <Slider slides={slides}/>
       </Sections>
       <Sections className={"flex-grid bg-dark-purple contact text-lime"} id={"contact"}>
         <h1 className="secName">Contact:</h1>

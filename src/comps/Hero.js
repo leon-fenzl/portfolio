@@ -8,15 +8,19 @@ export default function Hero({className,id}){
     <div className="content">
       <div className="hello-text-box">
         <h1>
-          {`Hi! I am a Generalist Game & Software Developer.`} 
-          <br/>
-          {`I offer a wide varietty of services in different areas such as:`}
+          {`Hi ! I am a Generalist Developer.`}
+        </h1>
+        <h1>
+          {`I offer a wide range of services`}
+        </h1>
+        <h1>
+          {`in different areas such as:`}
         </h1>
         <h1 className="wrapper">
-          <span>UNREAL</span>
-          <span>GODOT</span>
-          <span>UNITY</span>
+          <span>WEB</span>
           <span>CONCEPTS</span>
+          <span>GAMES</span>
+          <span>ANIMATIONS</span>
           <span>3D ART</span>
         </h1>
       </div>

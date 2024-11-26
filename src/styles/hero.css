@@ -14,10 +14,9 @@
     flex-direction: column;
   }
   .wrapper{
-    overflow: hidden;
-    height: 6dvh;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   @keyframes skillWheel {
     0%{
@@ -49,9 +48,7 @@
     flex-direction: row;
   }
   .wrapper{
-    overflow: hidden;
     
-    height: 6dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,14 +74,27 @@
       transform: translateY(200%);
     }
   }
+  /*
+  .hello-text-box{
+    position: absolute;
+    top: 30%;
+    transform: translate(-50%, -50%);
+  }
+  */
 }
 #hero{
   .content{
     justify-content: center;
   }
 }
+.wrapper{
+  overflow: hidden;
+  width: fill;
+  height: 6dvh;
+}
 .hello-text-box{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   .p{

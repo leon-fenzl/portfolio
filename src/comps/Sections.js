@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/hero.css"
+
 import portrait from "../images/cpt.png"
 export default function Sections({className,id,children}){
   return(

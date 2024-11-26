@@ -1,0 +1,17 @@
+.arrow{
+}
+.slider-box{
+  width: fill;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+#next{
+  rotate: 180deg;
+}
+.slider{
+  width: fill;
+  height: fill;
+}
