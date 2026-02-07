@@ -5,69 +5,97 @@
     font-family: 'Kumbh Sans', sans-serif;
     text-decoration: none;
     list-style: none;
+    /*
+     #FFCF6B;
+     #E96559
+     #4152BA
+     #1A0935
+    */
+}
+.a{
+    cursor: pointer;
 }
 :root{
-    background-color: rgb(25, 25, 25);
+    background-color: #1A0935;
 }
-.container{
-    width: 100%;
+.container {
+    display: grid;
+    grid-template-columns: 10vw 20vw auto 10vw; /* Your 4 columns */
+    grid-template-areas: "side1 sidebar contents side2";
     min-height: 100vh;
-    display: flex;
-    justify-content: space-around;
-}
-.collums{
-    background-color: blueviolet;
-    min-height: 100vh;
-}
-#collums_center{
-    width: 75%;
-}
-.sidebar{
-    background-color: rgb(68, 68, 68);
-    min-height: 100vh;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-}
-.sidebar_logo{
-    color: rgb(255, 255, 255);
-    display: flex;
-    width: 100%;
-    height: auto;
-    align-items: center;
-    justify-content: center;
     top: 0;
 }
-.logo_container{
-    font-size: 5rem;
-    width: 15rem;
-    height: 15rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
-    cursor: pointer;
+#side1{
+    grid-area: side1;
+}
+#sidebar{
+    grid-area: sidebar;
+}
+#content{
+    grid-area: contents;
+    min-height: 100vh;
+}
+#side2{
+    grid-area: side2;
 }
 .sidebar_menu{
-    background-color: aqua;
-    width: 100%;
-    height: fill;
+    padding: 1rem;
+    height: 100%;
 }
-.navbar_links{
-    cursor: pointer;
-    color: rgb(255, 255, 255);
+.sidebar_logo{
+    width: fill;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#_logo{
+    background-color: #ffbc2b;
+    width: 15rem;
+    height: 100%;
+
+    h1{
+            font-size: 1.5rem;
+       color: #1A0935;
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+}
+/*
+.name1{
+    letter-spacing: 0.3em;
+}
+.name2{
+    letter-spacing: 0.0875em;
+}
+*/
+.sidebar_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
+    h1{
+        color: #ffbc2b;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 }
-.bar{
-    height: 5px;
-    width: 15px;
-    background-color: black;
+
+.sections{
+    width: 100%;
+    height: 100dvh;
+    padding:1rem;
+    color: #ffbc2b;
 }
-#menu_mobile{
-    background-color: blanchedalmond;
+.section-content{
+    width: fill;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
 }
