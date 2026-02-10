@@ -5,90 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>León Fenzl</title>
     <!--
-  <meta http-equiv="Content-Security-Policy" 
-        content="default-src 'self';
-                script-src 'self';
-                style-src 'self' 'unsafe-inline';
-                img-src 'self' data: https:;">
--->
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Security-Policy" 
+    content="default-src 'self';
+    script-src 'self';
+    style-src 'self' 'unsafe-inline';
+    img-src 'self' data: https:;">
+    -->
+    <link rel="stylesheet" href="public/style.css">
     <script src="index.js"></script>  
   </head>
   <body>
-    <index></index>
-    <div  class="container"onloadstart="alternarSecao(hero)">
+    <div class="nav-grid bg-blue">
       <div id="side1"></div>
-<!---->
-      <div id="sidebar">
-        <div class="sidebar_menu">
-          <div class="sidebar_logo">
-            <a href="" onclick="alternarSecao('hero')"  id="_logo">
-              <h1 class="name1">LEÓN FENZL</h1>
-            </a>
-          </div>
-          <!---->
-          <ul>
-            <li class="sidebar_item">
-              <a href="#about" onclick="alternarSecao('about')" class="sidebar_links"><h1>About</h1></a>
-            </li>
-            <li class="sidebar_item">
-              <a href="#TWOD" onclick="alternarSecao('TWOD')" class="sidebar_links"><h1>2D</h1></a>
-            </li>
-            <li class="sidebar_item">
-              <a href="#THREED" onclick="alternarSecao('THREED')" class="sidebar_links"><h1>3D</h1></a>
-            </li>
-            <li class="sidebar_item">
-              <a href="#contact" onclick="alternarSecao('contact')" class="sidebar_links"><h1>Contact</h1></a>
-            </li>
-          </ul>
-        <!---->
-        </div>
-      </div>
-<!---->
-      <div id="content">
-        <section class="sections" id="hero">
-          <div>
-            <h1>GAME DEVELOPMENT THIRD PARTY SERVICES</h1>
-            <h1>FROM CONCEPTING, TO FULL 3D IMPLEMENTATION</h1>
-            <h1>IN UNREAL, GODOT & UNITY.</h1>
-          </div>
-        </section>
-        <!---->
-        <section class="sections" id="about">
-          <h1>About</h1>
-          <div>
-            <h1>GAME DEVELOPMENT THIRD PARTY SERVICES</h1>
-            <h1>FROM CONCEPTING, TO FULL 3D IMPLEMENTATION</h1>
-            <h1>IN UNREAL, GODOT & UNITY.</h1>
-          </div>
-        </section>
-        <!---->
-        <section class="sections" id="TWOD">
-          <div class="section-content">
-            <h1>GAME DEVELOPMENT THIRD PARTY SERVICES</h1>
-            <h1>FROM CONCEPTING, TO FULL 3D IMPLEMENTATION</h1>
-            <h1>IN UNREAL, GODOT & UNITY.</h1>
-          </div>
-        </section>
-        <!---->
-        <section class="sections" id="THREED">
-          <h1>3D</h1>
-           <div class="THREED">
-
-          </div>
-        </section>
-        <!---->
-        <section class="sections" id="contact">
-          <h1>Contact</h1>
-          <div>
-            <h1>GAME DEVELOPMENT THIRD PARTY SERVICES</h1>
-            <h1>FROM CONCEPTING, TO FULL 3D IMPLEMENTATION</h1>
-            <h1>IN UNREAL, GODOT & UNITY.</h1>
-          </div>
-        </section>
-      </div>
-<!---->
+      <nav class="navbar">
+        <span class="logo-box margin-left-0">
+          <li class="nav_link text-yellow" value="home">
+            <h1>LEÓN FENZL</h1>
+          </li>
+          <h3 class="text-yellow margin-left-1">Game Developer</h3>
+        </span>
+        <ul class="nav_links">
+          <li class="nav_link text-yellow margin-left-3" value="about">
+            <h4>About</h4></li>
+          <li class="nav_link text-yellow margin-left-3" value="concepts">
+            <h4>Concepts</h4></li>
+          <li class="nav_link text-yellow margin-left-3" value="models">
+            <h4>Models</h4>
+          </li>
+          <li class="nav_link text-yellow margin-left-3" value="contact">
+            <h4>Contact</h4>
+          </li>
+        </ul>
+      </nav>
       <div id="side2"></div>
     </div>
+    <main id="container"></main>
   </body>
 </html>
+<!--
+
+
+<div class="flexbox gap-1">
+  <div class="flex-item width-300 height-400"></div>
+</div>
+<div id="side2"></div>
+
+-->
