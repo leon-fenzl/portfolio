@@ -1,27 +1,33 @@
+import React from "react";
+import { Link } from "react-router-dom"; 
 function Navbar() {
   return (
-  <div class="nav-grid bg-blue">
+  <nav className="nav-grid bg-blue">
     <div id="side1"></div>
-    <nav class="navbar">
-      <span class="logo-box margin-left-0">
-        <li href=" " class="nav_link text-yellow" value="home">
+    <div className="navbar">
+      <span className="logo-box margin-left-0">
+        <Link to="/" className="nav_link text-yellow">
           <h1>LEÓN FENZL</h1>
-        </li>
-        <h3 class="text-yellow margin-left-1">Game Developer</h3>
+        </Link>
+        <h3 className="text-yellow margin-left-1">Game Developer</h3>
       </span>
-      <ul class="nav_links">
-        <a class="nav_link text-yellow margin-left-3" value="about">About</a>
-        <li class="nav_link text-yellow margin-left-3" value="concepts"><h4>Concepts</h4></li>
-        <li class="nav_link text-yellow margin-left-3" value="models">
+      <div className="nav_links">
+        <Link to="/about"className="nav_link text-yellow margin-left-3">
+          <h4>About</h4>
+        </Link>
+        <Link to="/ilust"className="nav_link text-yellow margin-left-3">
+          <h4>Ilustrations</h4>
+        </Link>
+        <Link to="/models"className="nav_link text-yellow margin-left-3">
           <h4>Models</h4>
-        </li>
-        <li class="nav_link text-yellow margin-left-3" value="contact">
+        </Link>
+        <Link to="/contact"className="nav_link text-yellow margin-left-3">
           <h4>Contact</h4>
-        </li>
-      </ul>
-    </nav>
+        </Link>
+      </div>
+    </div>
     <div id="side2"></div>
-  </div>
+  </nav>
   );
 }
 
