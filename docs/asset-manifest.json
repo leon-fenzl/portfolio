@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://leonfenzl.com/static/css/main.fa87f716.css",
-    "main.js": "https://leonfenzl.com/static/js/main.adaf37bb.js",
+    "main.css": "https://leonfenzl.com/static/css/main.284e93e7.css",
+    "main.js": "https://leonfenzl.com/static/js/main.12cf5775.js",
     "static/js/453.a7d99afe.chunk.js": "https://leonfenzl.com/static/js/453.a7d99afe.chunk.js",
     "index.html": "https://leonfenzl.com/index.html",
-    "main.fa87f716.css.map": "https://leonfenzl.com/static/css/main.fa87f716.css.map",
-    "main.adaf37bb.js.map": "https://leonfenzl.com/static/js/main.adaf37bb.js.map",
+    "main.284e93e7.css.map": "https://leonfenzl.com/static/css/main.284e93e7.css.map",
+    "main.12cf5775.js.map": "https://leonfenzl.com/static/js/main.12cf5775.js.map",
     "453.a7d99afe.chunk.js.map": "https://leonfenzl.com/static/js/453.a7d99afe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa87f716.css",
-    "static/js/main.adaf37bb.js"
+    "static/css/main.284e93e7.css",
+    "static/js/main.12cf5775.js"
   ]
 }

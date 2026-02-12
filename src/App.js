@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
 import './style.css'
 import Navbar from './Navbar.js';
 import Home from './Home.js';
@@ -10,18 +10,20 @@ import Contact from './Contact.js'
 function App() {
   return (
   <>
+  <Router>
   <Navbar />
   <main>
     <div id="side1"/>
-    <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/about' component={About}/>
-      <Route path='/ilust' component={Ilust}/>
-      <Route path='/models' component={Models}/>
-      <Route path='/contact' component={Contact}/>
-    </Switch>
+    < Routes>
+      <Route exact path='/' element={<Home/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/ilust' element={<Ilust/>}/>
+      <Route path='/models' element={<Models/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+    </Routes>
     <div id="side2"/>
   </main>
+  </Router>
   </>
   );
 }
