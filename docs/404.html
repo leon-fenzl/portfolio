@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title>leonfenzl.com</title>
     <script>
-      // Redirect to root with the current path as a hash
-      sessionStorage.redirect = window.location.pathname;
+      // Store the current path
+      const path = window.location.pathname;
+      // Redirect to root, but save the path
+      sessionStorage.redirect = path;
       window.location.replace('/');
     </script>
   </head>
