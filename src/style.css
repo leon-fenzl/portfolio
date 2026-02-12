@@ -6,9 +6,10 @@
     text-decoration: none;
     list-style: none;
     top: 0;
+
 }
 :root{
-    background-color: #1A0935;
+    background-color:bisque;
 }
 /**/
 .text-white{color:white;}
@@ -16,8 +17,10 @@
 .text-orange{color:#E96559;}
 .text-blue{color:#4152BA;}
 .text-purple{color:#1A0935;}
-
+.text-coral{color:coral;}
+.text
 .bg-white{background-color:white;}
+.bg-bisque{background-color:bisque;}
 .bg-yellow{background-color:#FFCF6B;}
 .bg-orange{background-color:#E96559;}
 .bg-blue{background-color:#4152BA;}
@@ -42,7 +45,6 @@
 
 .ft-small{font-size: small;}
 /**/
-
 #side1{grid-area:side1;}
 #side2{grid-area:side2;}
 .nav-grid{
@@ -72,16 +74,18 @@
     justify-content:right;
     align-items: center;
 }
-.container{
-    margin-top: 10dvh;
+main{
+    width: 100%;
+    margin-top: 12dvh;
     display: grid;
     grid-template-columns: 2dvw auto 2dvw;
-    grid-template-areas:"side1 content side2";
+    grid-template-areas:"side1 navbar side2";
+    color:lightslategray;
 }
 .flexbox{
-    background-color: #FFCF6B;
+    background-color: #E96559;
     grid-area: content;
-    min-height: 90dvh;
+    min-height: 80dvh;
     display: flex;
     flex-flow:wrap;
     justify-content:space-between;
@@ -91,7 +95,4 @@
     background-color: #E96559;
     align-self: flex-start;
 }
-main{
-    margin-top: 15dvh;
-    color:#FFCF6B;
-}
+

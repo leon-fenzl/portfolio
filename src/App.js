@@ -11,13 +11,17 @@ function App() {
   return (
   <>
   <Navbar />
-  <Switch>
-    <Route exact path='/' component={Home}/>
-    <Route path='/about' component={About}/>
-    <Route path='/ilust' component={Ilust}/>
-    <Route path='/models' component={Models}/>
-    <Route path='/contact' component={Contact}/>
-  </Switch>
+  <main>
+    <div id="side1"/>
+    <Switch>
+      <Route exact path='/' component={Home}/>
+      <Route path='/about' component={About}/>
+      <Route path='/ilust' component={Ilust}/>
+      <Route path='/models' component={Models}/>
+      <Route path='/contact' component={Contact}/>
+    </Switch>
+    <div id="side2"/>
+  </main>
   </>
   );
 }

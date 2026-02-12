@@ -1,10 +1,9 @@
 import React from "react";
 function About() {
-  console.log("About component is rendering!"); // Check browser console
   return (
-    <main>
+    <>
       <h1>About</h1>
-    </main>
+    </>
   );
 }
 
