@@ -80,20 +80,20 @@ main{
     margin-top: 12dvh;
     display: grid;
     grid-template-columns: 2dvw auto 2dvw;
-    grid-template-areas:"side1 navbar side2";
+    grid-template-areas:"side1 content side2";
     color:lightslategray;
 }
 .flexbox{
-    background-color: #E96559;
     grid-area: content;
-    min-height: 80dvh;
-    display: flex;
-    flex-flow:wrap;
-    justify-content:space-between;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 .flex-item{
-    margin-top: 1rem;
-    background-color:#1A0935;
-    align-self: flex-start;
+    background:#1A0935;
+    height: 450px;
+    max-width: 30rem;
+    width: 100%;
+    margin: 0 auto;
 }
 
