@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://leonfenzl.com/static/css/main.284e93e7.css",
-    "main.js": "https://leonfenzl.com/static/js/main.12cf5775.js",
+    "main.css": "https://leonfenzl.com/static/css/main.6c3c4d2d.css",
+    "main.js": "https://leonfenzl.com/static/js/main.5d0fdeda.js",
     "static/js/453.a7d99afe.chunk.js": "https://leonfenzl.com/static/js/453.a7d99afe.chunk.js",
     "index.html": "https://leonfenzl.com/index.html",
-    "main.284e93e7.css.map": "https://leonfenzl.com/static/css/main.284e93e7.css.map",
-    "main.12cf5775.js.map": "https://leonfenzl.com/static/js/main.12cf5775.js.map",
+    "main.6c3c4d2d.css.map": "https://leonfenzl.com/static/css/main.6c3c4d2d.css.map",
+    "main.5d0fdeda.js.map": "https://leonfenzl.com/static/js/main.5d0fdeda.js.map",
     "453.a7d99afe.chunk.js.map": "https://leonfenzl.com/static/js/453.a7d99afe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.284e93e7.css",
-    "static/js/main.12cf5775.js"
+    "static/css/main.6c3c4d2d.css",
+    "static/js/main.5d0fdeda.js"
   ]
 }
