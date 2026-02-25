@@ -1,26 +1,26 @@
 import React from 'react';
 import { Switch, BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
-import './style.css'
-import Navbar from './Navbar.js';
-import Home from './Home.js';
-import About from './About.js';
-import Ilust from './Ilust.js'
-import Models from './Models.js'
-import Contact from './Contact.js'
+import './style.css';
+import Navbar from './Components/Navbar.js';
+import About from './Pages/About.js';
+import Concepts from './Pages/Concepts.js';
+import Models from './Pages/Models.js';
+import Games from './Pages/Games.js';
+import Contact from './Pages/Contact.js';
 function App() {
   return (
   <div className="site-grid">
-    <div className="bg-blue" id="side1"/>
+    <div id="side1"/>
     <Navbar/>
-    <div className="bg-blue" id="nav-side"/>
+    <div id="nav-side"/>
     <div className="contents">
-      <Home/>
       <About/>
-      <Ilust/>
+      <Concepts/>
       <Models/>
+      <Games/>
       <Contact/>
     </div>
-    <div className="bg-blue" id="side2"/>
+    <div id="side2"/>
   </div>
   );
 }
