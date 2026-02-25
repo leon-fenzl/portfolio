@@ -9,22 +9,19 @@ import Models from './Models.js'
 import Contact from './Contact.js'
 function App() {
   return (
-  <>
-  <Router>
-  <Navbar />
-  <main>
-    <div id="side1"/>
-    < Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/about' element={<About/>}/>
-      <Route path='/ilust' element={<Ilust/>}/>
-      <Route path='/models' element={<Models/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-    </Routes>
-    <div id="side2"/>
-  </main>
-  </Router>
-  </>
+  <div className="site-grid">
+    <div className="bg-blue" id="side1"/>
+    <Navbar/>
+    <div className="bg-blue" id="nav-side"/>
+    <div className="contents">
+      <Home/>
+      <About/>
+      <Ilust/>
+      <Models/>
+      <Contact/>
+    </div>
+    <div className="bg-blue" id="side2"/>
+  </div>
   );
 }
 

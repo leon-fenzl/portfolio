@@ -2,32 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom"; 
 function Navbar() {
   return (
-  <nav className="nav-grid bg-bisque text-coral">
-    <div id="side1"/>
-    <div className="navbar">
-      <span className="logo-box margin-left-0">
-        <Link to="/" className="nav_link text-coral">
-        <h1>LEÓN FENZL</h1>
-        </Link>
-        <h3 className="margin-left-1 text-coral">Game Developer</h3>
-      </span>
-      <div className="nav_links">
-        <Link to="/about"className="nav_link margin-left-3 text-coral">
-          <h4>About</h4>
-        </Link>
-        <Link to="/ilust"className="nav_link margin-left-3 text-coral">
-          <h4>Ilustrations</h4>
-        </Link>
-        <Link to="/models"className="nav_link margin-left-3 text-coral">
-          <h4>Models</h4>
-        </Link>
-        <Link to="/contact"className="nav_link margin-left-3 text-coral">
-          <h4>Contact</h4>
-        </Link>
-      </div>
-    </div>
-    <div id="side2"/>
-  </nav>
+  <div className="navbar">
+    <div className="buffer"/>
+     <h1 href="#home" className="logo bg-blue">
+      <a>León Fenzl</a>
+    </h1>
+    <a href="#home" className="nav-link">
+      <h3>Home</h3>
+    </a>
+    <a href="#about" className="nav-link">
+      <h3>About</h3>
+    </a>
+  </div>
   );
 }
 

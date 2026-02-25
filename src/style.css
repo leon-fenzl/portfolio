@@ -6,11 +6,15 @@
     text-decoration: none;
     list-style: none;
     top: 0;
-
 }
 :root{
-    overflow: scroll;
     background-color:bisque;
+}
+a{
+    color: black;
+}
+a:hover{
+    cursor:pointer;
 }
 /**/
 .text-white{color:white;}
@@ -46,54 +50,37 @@
 
 .ft-small{font-size: small;}
 /**/
-#side1{grid-area:side1;}
-#side2{grid-area:side2;}
-.nav-grid{
-    width: 100%;
+
+.site-grid{
     display: grid;
-    grid-template-columns: 2dvw auto 2dvw;
-    grid-template-areas:"side1 navbar side2";
-    position: fixed;
+    grid-template-columns: 0 25dvw 2dvw auto 0;
+    grid-template-areas:
+    "side1 nav-contents nav-side contents side2";
 }
-.navbar{
-    grid-area: navbar;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 10dvh;
-}
-.logo-box{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-}
-.nav_links{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content:right;
-    align-items: center;
-}
-main{
-    width: 100%;
-    margin-top: 12dvh;
-    display: grid;
-    grid-template-columns: 2dvw auto 2dvw;
-    grid-template-areas:"side1 content side2";
-    color:lightslategray;
-}
-.flexbox{
-    grid-area: content;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-}
-.flex-item{
-    background:#1A0935;
-    height: 450px;
-    max-width: 30rem;
-    width: 100%;
-    margin: 0 auto;
+@media screen and (min-width: 720px) {
+    .site-grid{
+        grid-template-columns: 15dvw 20dvw 2dvw auto 15dvw;
+        
+    }
 }
 
+#side1{grid-area:side1;}
+#side2{grid-area:side2;}
+#nav-side{grid-area:nav-side;}
+.buffer{height: 2rem;}
+.navbar{
+    grid-area: nav-contents;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 100dvh;
+}
+.nav-link{margin-top: 2rem;}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents{grid-area: contents;}
+section{min-height: 100dvh;}

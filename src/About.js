@@ -1,8 +1,13 @@
 import React from "react";
+import Back from "./BackTop";
 function About() {
   return (
     <>
-      <h1>About</h1>
+      <section className="" id="about">
+        <div className="buffer"/>
+        <h1>About</h1>
+      </section>
+      <Back/>
     </>
   );
 }

@@ -1,31 +1,10 @@
 import React from "react";
 function Models() {
   return (
-    <div className="grind-content">
-    <div id="side1"/>
-    <div className="content">
+    <section className="" id="models">
+      <div className="buffer"/>
       <h1>Models</h1>
-      <div className="flexbox">
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-      </div>
-    </div>
-    <div id="side2"/>
-    </div>
+    </section>
   );
 }
 
