@@ -8,155 +8,99 @@
     top: 0;
 }
 :root{
-    background-color:wheat;
-    color: #4152BA;
+    background-color:#FFFBF0;
+    color: #212842;
 }
 a{
-    color: #4152BA;
+    color: #212842;
 }
 a:hover{
     cursor:pointer;
 }
-/**/
-.text-wheat{color:wheat;}
-.text-white{color:white;}
-.text-yellow{color:#FFCF6B;}
-.text-orange{color:#E96559;}
-.text-blue{color:#4152BA;}
-.text-purple{color:#1A0935;}
-.text-coral{color:coral;}
-
-.bg-wheat{background-color: wheat;}
-.bg-white{background-color:white;}
-.bg-bisque{background-color:bisque;}
-.bg-yellow{background-color:#FFCF6B;}
-.bg-orange{background-color:#E96559;}
-.bg-blue{background-color:#4152BA;}
-.bg-purple{background-color:#1A0935;}
-
-.margin-top-1dvh{margin-top:15dvh;}
-
-.margin-left-0{margin-left: 0rem;}
-.margin-left-1{margin-left: 1rem;}
-.margin-left-2{margin-left: 2rem;}
-.margin-left-3{margin-left: 3rem;}
-
-.margin-right-0{margin-right: 0rem;}
-.margin-right-1{margin-right: 1rem;}
-.margin-right-2{margin-right: 2rem;}
-.margin-right-3{margin-right: 3rem;}
-
-.gap-1{ gap:1rem;}
-
-.width-300{width: 300px;}
-.height-400{height: 400px;}
-
-.ft-small{font-size: small;}
-/**/
-
-.site-grid{
+.bg-ivory{background-color: #FFFBF0}
+.bg-blue-midnight{background-color: #212842;}
+.text-ivory{color: #FFFBF0}
+.text-blue-midnight{color: #212842;}
+.grid-site{
     display: grid;
-    grid-template-columns: 0dvw 20dvw 2dvw auto 0dvw;
-    grid-template-areas:"side1 nav-contents nav-side contents side2";
+    grid-template-columns:5dvw 20rem auto 5dvw;
+    grid-template-areas: "c1 c2 c3 c4";
 }
-
-.logo-pc{
-    display:none;
-}
-
-.logo-mob{
-    width:100%;
-    height: fill;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#side1{grid-area:side1;}
-#side2{grid-area:side2;}
-#nav-side{grid-area:nav-side;}
-
-.buffer{
-    width: 100%;
-    height: 5dvh;
-}
-
-.navbar{
-    grid-area: nav-contents;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
+.buffer{height: 5dvh;}
+#c1{grid-area: c1;}
+#c2{grid-area: c2;}
+#c3{grid-area: c3;}
+#c4{grid-area: c4;}
+nav{
     height: 100dvh;
-}
-
-.nav-link{
-    margin-top: 1rem;
-    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
 }
-
 .logo{
-    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
-.back{
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-pc{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo-title{
-    width:100%;
+.logo-mob{
+    display: none;
+}
+.nav-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
     height: fill;
+}
+.nav-option{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: fill;
 }
-
-.contents{grid-area: contents;}
+footer{
+    height: 10dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3{
+        text-align: center;
+    }
+}
+main{
+    min-height: fill;
+    width: fill;
+}
 section{
-    height:100dvh;
+    min-height:90dvh ;
 }
-.section-content{
-    width: 100%;
-    height: 100%;
-}
-.home-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.dummy{
-    width:50%;
-    background-color:#4152BA;
-    margin: 1rem;
-}
-.text-about{
-    width: 100%;
-    margin: 1rem;
-    text-align: justify;
-}
-@media screen and (min-width: 850px) {
-    .site-grid{
-        grid-template-columns: 15dvw 20dvw 2dvw auto 15dvw;       
+@media screen and (max-width: 850px){
+    .grid-site{
+    grid-template-columns:2dvw 20dvw auto 2dvw;
     }
     .logo-pc{
-        width:100%;
-        height: fill;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo-mob{
         display: none;
     }
-    .text-about{
-        margin: 5rem;
+    .logo-mob{
+        display: flex;
+        flex-direction: column;
     }
 }
