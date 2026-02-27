@@ -11,7 +11,6 @@ import Games from './Pages/Games.js';
 import Contact from './Pages/Contact.js';
 function App() {
   return (
-    <>
     <div className='grid-site'>
       <div id="c1"/>
       <nav className='sidebar' id='c2'>
@@ -23,9 +22,7 @@ function App() {
         <a href='/' className="logo-mob">FENZL</a>
         </h1>
         <h3 className='title'>
-          <span>Game Artist </span> 
-          & 
-          <span> Programmer</span>
+          <span>Game Artist </span> & <span> Programmer</span>
         </h3>
         </div>
         <div className='nav-options'>
@@ -36,20 +33,11 @@ function App() {
         </div>
       </nav>
       <main id="c3">
-        <section>
-          <div className='buffer'/>
-          <h2>About</h2>
-        </section>
-        <footer>
-          <h2>
-            All works here presented, belong to<span> León Fenzl </span>
-            and/or his clients.
-          </h2>
-        </footer>
+      <About/>
+      <Footer/>
       </main>
       <div id="c4"/>
     </div>
-    </>
   );
 }
 
