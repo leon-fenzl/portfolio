@@ -11,33 +11,54 @@ import Games from './Pages/Games.js';
 import Contact from './Pages/Contact.js';
 function App() {
   return (
-    <div className='grid-site'>
-      <div id="c1"/>
-      <nav className='sidebar' id='c2'>
-        <div className='buffer'/>
-        <div className="logo">
-        <h1>
-        <a href='/' className="logo-pc">LEÓN FENZL</a>
-        <a href='/' className="logo-mob">LEÓN</a>
-        <a href='/' className="logo-mob">FENZL</a>
-        </h1>
-        <h3 className='title'>
-          <span>Game Artist </span> & <span> Programmer</span>
-        </h3>
+    <>
+      <nav className='grid-site'>
+        <div className='side1'/>
+        <div className='container navbar'>
+          <h1 className='logo'>
+          <a href='/' className='logo-pc'><span>LEÓN FENZL</span></a>
+          <a href='/' className='logo-mob'>
+            <span>LEÓN</span>
+            <span>FENZL</span>
+          </a>
+          </h1>
+          <h3 className='nav-options'>
+            <a href='#about'>About</a>
+            <a href='#concepts'>Concepts</a>
+            <a href='#models'>Models</a>
+            <a href='#games'>Games</a>
+            <a href='#contact'>Contact</a>
+          </h3>
         </div>
-        <div className='nav-options'>
-        <a href='#about' className="nav-option"><h4>About</h4></a>
-        <a href='#about' className="nav-option"><h4>Concepts</h4></a>
-        <a href='#about' className="nav-option"><h4>Models</h4></a>
-        <a href='#about' className="nav-option"><h4>Contact</h4></a>
-        </div>
+        <div className='side2'/>
       </nav>
-      <main id="c3">
-      <About/>
-      <Footer/>
+      <main className='grid-site content'>
+        <div className='side1'/>
+        <div className='container'>
+        <section id='about'>
+          <div className='buffer'/>
+          <h2>About</h2>
+        </section>
+        <section id='concepts'>
+          <div className='buffer'/>
+          <h2>Concepts</h2>
+        </section>
+        <section id='models'>
+          <div className='buffer'/>
+          <h2>Models</h2>
+        </section>
+        <section id='games'>
+          <div className='buffer'/>
+          <h2>Games</h2>
+        </section>
+        <section id='contact'>
+          <div className='buffer'/>
+          <h2>Contact</h2>
+        </section>
+        </div>
+        <div className='side2'/>
       </main>
-      <div id="c4"/>
-    </div>
+    </>
   );
 }
 

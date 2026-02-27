@@ -21,86 +21,75 @@ a:hover{
 .bg-blue-midnight{background-color: #212842;}
 .text-ivory{color: #FFFBF0}
 .text-blue-midnight{color: #212842;}
+/**/
 .grid-site{
     display: grid;
-    grid-template-columns:5dvw 20rem auto 5dvw;
-    grid-template-areas: "c1 c2 c3 c4";
+    grid-template-columns: 5dvw auto 5dvw;
+    grid-template-areas:
+    "side1 container side2"
 }
-.buffer{height: 5dvh;}
-#c1{grid-area: c1;}
-#c2{grid-area: c2;}
-#c3{grid-area: c3;}
-#c4{grid-area: c4;}
+
+.buffer{height: 10dvh;}
+
+.side1{grid-area: side1;}
+.container{
+    grid-area: container;
+}
+.side2{grid-area: side2;}
+
 nav{
-    height: 100dvh;
+    width: 100%;
+    height: 10dvh;
+    position:fixed;
+}
+.navbar{
+    width: fill;
+    height: fill;
     display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items:center;
+    align-items: center;
 }
 .logo{
+    width: 25%;
+    height: fill;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .logo-pc{
-    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
 }
 .logo-mob{
     display: none;
 }
 .nav-options{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
+    width: 75%;
     height: fill;
-}
-.nav-option{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: fill;
-}
-footer{
-    height: 10dvh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h3{
-        text-align: center;
-    }
-}
-main{
-    min-height: fill;
-    width: fill;
 }
 section{
-    min-height:90dvh ;
+    min-height: 100dvh;
 }
 @media screen and (max-width: 850px){
-    .grid-site{
-    grid-template-columns:2dvw 20dvw auto 2dvw;
-    }
-    .logo-pc{
-        display: none;
-    }
-    .logo-mob{
-        display: flex;
-        flex-direction: column;
-    }
+.grid-site{
+    grid-template-columns: 2dvw auto 2dvw;
+}
+.logo{
+    width: 25%;
+}
+.nav-options{
+    width: 75%;
+}
+.logo-pc{
+    display: none;
+}
+.logo-mob{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+}
 }
