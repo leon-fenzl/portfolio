@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"; 
 function Footer() {
   return (
-  <footer>
+  <footer id="contact">
     <h2>
       All works here presented, belong to<span> León Fenzl </span>
       and/or his clients.

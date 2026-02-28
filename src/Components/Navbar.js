@@ -2,29 +2,24 @@ import React from "react";
 import { Link } from "react-router-dom"; 
 function Navbar() {
   return (
-  <nav className="navbar">
-    
-    <div id="side1"/>
-    
-    <div id="nav-content">
-      <div className="logo">
-        <h1 className="logo-pc"><a href="/" >León Fenzl</a></h1>
-        <h1 className="logo-mob"><a href="/" >León</a></h1>
-        <h1 className="logo-mob"><a href="/" >Fenzl</a></h1>
+    <nav className="nav">
+      <div className='side'/>
+      <div className='navbar'>
+        <h1 className='logo'>
+        <a href='/' className='logo-pc'><span>LEÓN FENZL</span></a>
+        <a href='/' className='logo-mob'>
+          <span>LEÓN</span>
+          <span>FENZL</span>
+        </a>
+        </h1>
+        <h3 className='nav-options'>
+          <a href='#about'>About</a>
+          <a href='#works'>Works</a>
+          <a href='#contact'>Contact</a>
+        </h3>
       </div>
-      
-      <a href="#about" className="nav-link">
-        <h2 className="nav-link">About</h2>
-      </a>
-      <a href="#about" className="nav-link">
-        <h2 className="nav-link">About</h2>
-      </a>
-
-    </div>
-    
-    <div id="side2"/>
-
-  </nav>
+      <div className='side'/>
+    </nav>
   );
 }
 
