@@ -4,14 +4,14 @@ import './style.css';
 import Navbar from './Components/Navbar.js';
 import Works from './Pages/Works.js';
 import About from './Pages/About.js';
-import Footer from './Components/Footer.js';
+import Contact from './Components/Contact.js';
 function App() {
   return (
     <>
     <Navbar/>
     <About/>
     <Works/>
-    <Footer/>
+    <Contact/>
     </>
   );
 }

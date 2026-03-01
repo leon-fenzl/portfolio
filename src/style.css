@@ -21,6 +21,9 @@ a:hover{
 .bg-blue-midnight{background-color: #212842;}
 .text-ivory{color: #FFFBF0}
 .text-blue-midnight{color: #212842;}
+.ft-size-larger{
+    font-size: larger;
+}
 /**/
 .buffer{
     grid-area: buffer;
@@ -75,7 +78,25 @@ nav{
     width: fill;
     display: flex;
 }
-.section-container{
+.container{
+    width: fill;
+}
+.flex-container{
+    width: fill;
+    height: 90dvh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-center{
+    width: 50%;
+    text-justify: auto;
+}
+/*ABOUT*/
+.show-on-pc{display: block;}
+.show-on-mob{display: none;}
+/*WORKS*/
+.works-container{
     width: 100%;
     min-height: 90dvh;
 }
@@ -85,20 +106,28 @@ nav{
     justify-content:space-around;
     gap: 2rem;
 }
-.item{
+.item-grid{
     height: 400px;
-    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/**/
-.about-container{
-    display: flex;
+.item-name{
+    color:#FFFBF0;
+    display: none;
+}
+.item-overlay{
     width: fill;
+    height: fill;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+.item-grid:hover{
+    .item-overlay{background-color:rgba(122, 122, 122, 0.25);};
+    .item-name{display: block;}
+}
+
 /**/
 @media screen and (max-width: 850px){
     .side{
@@ -119,4 +148,12 @@ nav{
         flex-direction: column;
         align-content:center;
     }
+    .projects-grid-flex{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    }
+    .item-grid{
+        max-height: 450px;
+    }
+    .show-on-pc{display: none;}
+    .show-on-mob{display: block;}
 }

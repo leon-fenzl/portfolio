@@ -1,37 +1,20 @@
 import React from "react";
 import Back from "../Components/BackTop";
 import PortItem from "../Components/PortItem";
+import img1 from "../Images/leon-blaze-fenzl-male-base-hex.jpg"
 function Works() {
   return (
     <section className="section-flex" id="works">
       <div className="side"/>
-      <div className="section-container">
+      <div className="works-container">
         <div className="buffer"/>
         <div className="projects-grid-flex">
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
-          <PortItem/>
+          <PortItem bgImg={img1} itemName="hello"/>
+          <PortItem bgImg={img1} itemName="hello"/>
+          <PortItem bgImg={img1} itemName="hello"/>
+          <PortItem bgImg={img1} itemName="hello"/>
+          <PortItem bgImg={img1} itemName="hello"/>
+          <PortItem bgImg={img1} itemName="hello"/>
         </div>
       </div>
       <div className="side"/>
