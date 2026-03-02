@@ -4,19 +4,19 @@ import Navbar from './Components/Navbar.js';
 import Works from './Pages/Works.js';
 import About from './Pages/About.js';
 import Contact from './Pages/Contact.js';
-import { Switch, BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
     <Router>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<About/>} />
-        <Route path="/about" element={<About />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<p>404 Not Found</p>} />
-      </Routes>
+    <Navbar/>
+    <Routes>
+      <Route path="/" element={<About/>} />
+      <Route path="/about" element={<About />} />
+      <Route path="/works" element={<Works />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<p>404 Not Found</p>} />
+    </Routes> 
     </Router>
     </>
 

@@ -6,9 +6,10 @@ function PortItem({bgImg,itemName,targetPage}) {
   const [openModal,setOpenModal] = useState(false);
   onClick={()=>{setOpenModal(true);}}
   {openModal && <Modal closeModal={setOpenModal}/>}
+  href={"/"+targetPage}
   */
   return (
-  <a className="item-grid" href={"/"+targetPage}
+  <a className="item-grid" 
     style={{
     backgroundImage:`url(${bgImg})`,
     backgroundRepeat:"no-repeat",
