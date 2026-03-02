@@ -6,16 +6,16 @@ function Navbar() {
       <div className='side'/>
       <div className='navbar'>
         <h1 className='logo'>
-        <a href='/' className='logo-pc'><span>LEÓN FENZL</span></a>
-        <a href='/' className='logo-mob'>
+        <Link to='/' className='logo-pc'><span>LEÓN FENZL</span></Link>
+        <Link to='/' className='logo-mob'>
           <span>LEÓN</span>
           <span>FENZL</span>
-        </a>
+        </Link>
         </h1>
         <h3 className='nav-options'>
-          <a href='/about'>About</a>
-          <a href='/works'>Works</a>
-          <a href='/contact'>Contact</a>
+          <Link to='/about'>About</Link>
+          <Link to='/works'>Works</Link>
+          <Link to='/contact'>Contact</Link>
         </h3>
       </div>
       <div className='side'/>

@@ -7,6 +7,7 @@ import Contact from './Pages/Contact.js';
 import { Switch, BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
 function App() {
   return (
+    <>
     <Router>
       <Navbar/>
       <Routes>
@@ -17,6 +18,8 @@ function App() {
         <Route path="*" element={<p>404 Not Found</p>} />
       </Routes>
     </Router>
+    </>
+
   );
 }
 
