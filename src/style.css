@@ -21,19 +21,10 @@ a:hover{
 .bg-blue-midnight{background-color: #212842;}
 .text-ivory{color: #FFFBF0}
 .text-blue-midnight{color: #212842;}
-.ft-size-larger{
-    font-size: larger;
-}
+.ft-size-larger{font-size: larger;}
 /**/
-.buffer{
-    grid-area: buffer;
-    height: 10dvh;
-}
-
-.side{
-    width: 5dvw;
-    height: fill;
-}
+.buffer{grid-area: buffer; height: 10dvh;}
+.side{width: 5dvw;height: fill;}
 /*Navbar*/
 nav{
     width: 100%;
@@ -61,9 +52,7 @@ nav{
     justify-content: flex-start;
     align-items: center;
 }
-.logo-mob{
-    display: none;
-}
+.logo-mob{display: none;}
 .nav-options{
     width: 70%;
     height: fill;
@@ -88,18 +77,12 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.about-center{
-    width: 50%;
-    text-justify: auto;
-}
+.about-center{width: 50%;text-justify: auto;}
 /*ABOUT*/
 .show-on-pc{display: block;}
 .show-on-mob{display: none;}
 /*WORKS*/
-.works-container{
-    width: 100%;
-    min-height: 90dvh;
-}
+.works-container{width: 100%;min-height: 90dvh;}
 .projects-grid-flex{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
@@ -112,10 +95,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.item-name{
-    color:#FFFBF0;
-    display: none;
-}
+.item-name{color:#FFFBF0;display: none;}
 .item-overlay{
     width: fill;
     height: fill;
@@ -124,25 +104,29 @@ nav{
     align-items: center;
 }
 .item-grid:hover{
-    .item-overlay{background-color:rgba(122, 122, 122, 0.25);};
+    .item-overlay{background-color:rgba(0, 0, 0, 0.30);}
     .item-name{display: block;}
 }
-
+.content-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-modal{
+    background-color: aqua;
+    top:0;
+    left: 0;;
+    width: 100%;
+    height: fill;
+    z-index: 10;
+    position: absolute;
+}
 /**/
 @media screen and (max-width: 850px){
-    .side{
-    width: 2dvw;
-    height: fill;
-    }
-    .logo{
-        width: 30%;
-    }
-    .nav-options{
-        width: 70%;
-    }
-    .logo-pc{
-        display: none;
-    }
+    .side{width: 2dvw;height: fill;}
+    .logo{width: 30%;}
+    .nav-options{width: 70%;}
+    .logo-pc{display: none;}
     .logo-mob{
         display: flex;
         flex-direction: column;
@@ -151,9 +135,7 @@ nav{
     .projects-grid-flex{
         grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     }
-    .item-grid{
-        max-height: 450px;
-    }
+    .item-grid{max-height: 450px;}
     .show-on-pc{display: none;}
     .show-on-mob{display: block;}
 }

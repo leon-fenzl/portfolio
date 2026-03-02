@@ -4,21 +4,27 @@ import PortItem from "../Components/PortItem";
 import img1 from "../Images/leon-blaze-fenzl-male-base-hex.jpg"
 function Works() {
   return (
-    <section className="section-flex" id="works">
-      <div className="side"/>
-      <div className="works-container">
-        <div className="buffer"/>
-        <div className="projects-grid-flex">
-          <PortItem bgImg={img1} itemName="hello"/>
-          <PortItem bgImg={img1} itemName="hello"/>
-          <PortItem bgImg={img1} itemName="hello"/>
-          <PortItem bgImg={img1} itemName="hello"/>
-          <PortItem bgImg={img1} itemName="hello"/>
-          <PortItem bgImg={img1} itemName="hello"/>
-        </div>
+  <>
+  <section className="section-flex" id="works">
+    <div className="side"/>
+    <div className="works-container">
+      <div className="buffer"/>
+      <div className="projects-grid-flex">
+        <PortItem bgImg={img1} itemName="HELLO"/>
+        <PortItem bgImg={img1} itemName="HELLO"/>
+        <PortItem bgImg={img1} itemName="HELLO"/>
+        <PortItem bgImg={img1} itemName="HELLO"/>
+        <PortItem bgImg={img1} itemName="HELLO"/>
+        <PortItem bgImg={img1} itemName="HELLO"/>
+        <PortItem bgImg={img1} itemName="HELLO"/>
+        <PortItem bgImg={img1} itemName="HELLO"/>
+        <PortItem bgImg={img1} itemName="HELLO"/>
+        <PortItem bgImg={img1} itemName="HELLO"/>
       </div>
-      <div className="side"/>
-    </section>
+    </div>
+    <div className="side"/>
+  </section>
+  </>
   );
 }
 

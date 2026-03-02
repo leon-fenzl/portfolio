@@ -13,9 +13,9 @@ function Navbar() {
         </a>
         </h1>
         <h3 className='nav-options'>
-          <a href='#about'>About</a>
-          <a href='#works'>Works</a>
-          <a href='#contact'>Contact</a>
+          <a href='/about'>About</a>
+          <a href='/works'>Works</a>
+          <a href='/contact'>Contact</a>
         </h3>
       </div>
       <div className='side'/>
