@@ -1,15 +1,11 @@
 import { hover } from "@testing-library/user-event/dist/hover";
 import React, { useState } from "react";
 import Modal from "./Modal";
+import { Link } from "react-router-dom"; 
 function PortItem({bgImg,itemName,targetPage}) {
-  /*
-  const [openModal,setOpenModal] = useState(false);
-  onClick={()=>{setOpenModal(true);}}
-  {openModal && <Modal closeModal={setOpenModal}/>}
-  href={"/"+targetPage}
-  */
   return (
-  <a className="item-grid" 
+  <Link className="item-grid" 
+    to={"/"+targetPage}
     style={{
     backgroundImage:`url(${bgImg})`,
     backgroundRepeat:"no-repeat",
@@ -19,7 +15,7 @@ function PortItem({bgImg,itemName,targetPage}) {
     <div className="item-overlay" >
       <h2 className="item-name">{itemName}</h2>
     </div>
-  </a>
+  </Link>
   );
 }
 export default PortItem;

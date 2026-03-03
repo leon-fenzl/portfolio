@@ -5,6 +5,7 @@ import Works from './Pages/Works.js';
 import About from './Pages/About.js';
 import Contact from './Pages/Contact.js';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Training from './Pages/Training.js';
 function App() {
   return (
     <>
@@ -15,7 +16,8 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/works" element={<Works />} />
       <Route path="/contact" element={<Contact />} />
-
+      <Route path="/training" element={<Training/>} />
+      <Route path="*" element={<p>404 Not Found</p>} />
     </Routes> 
     </Router>
     </>
@@ -24,6 +26,3 @@ function App() {
 }
 
 export default App;
-/* 
-      <Route path="*" element={<p>404 Not Found</p>} />
-*/

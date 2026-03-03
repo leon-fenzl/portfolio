@@ -112,14 +112,12 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.bg-modal{
-    background-color: aqua;
-    top:0;
-    left: 0;;
+.port-page{
+    display: flex;
+    min-height: 100dvh;
+}
+.port-content{
     width: 100%;
-    height: fill;
-    z-index: 10;
-    position: absolute;
 }
 /**/
 @media screen and (max-width: 850px){
