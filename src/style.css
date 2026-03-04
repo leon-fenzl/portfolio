@@ -61,6 +61,7 @@ nav{
     align-items: center;
     gap: 1rem;
 }
+
 /* SECTIONS */
 .section-flex{
     min-height: 100dvh;
@@ -76,11 +77,21 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
-.about-center{width: 50%;text-justify: auto;}
+/*HERO PAGE*/
+.ramdomner{
+    width: 100%;
+    background-color: #212842;
+    height: 90dvh;
+}
 /*ABOUT*/
+.about-center{width: 50%;text-justify: auto;}
 .show-on-pc{display: block;}
 .show-on-mob{display: none;}
+.portrait{
+    max-height: 60%;
+}
 /*WORKS*/
 .works-container{width: 100%;min-height: 90dvh;}
 .projects-grid-flex{
@@ -116,8 +127,20 @@ nav{
     display: flex;
     min-height: 100dvh;
 }
-.port-content{
+.work-content{
     width: 100%;
+}
+.actual-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-img img{
+    margin-top: 2rem;
+    max-width:100%
+}
+.comment{
+    width: fill;
 }
 /**/
 @media screen and (max-width: 850px){

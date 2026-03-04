@@ -2,7 +2,7 @@ import { hover } from "@testing-library/user-event/dist/hover";
 import React, { useState } from "react";
 import Modal from "./Modal";
 import { Link } from "react-router-dom"; 
-function PortItem({bgImg,itemName,targetPage}) {
+function GridItem({bgImg,itemName,targetPage}) {
   return (
   <Link className="item-grid" 
     to={"/"+targetPage}
@@ -18,4 +18,4 @@ function PortItem({bgImg,itemName,targetPage}) {
   </Link>
   );
 }
-export default PortItem;
+export default GridItem;
