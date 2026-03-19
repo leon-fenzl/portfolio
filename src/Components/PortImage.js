@@ -6,7 +6,7 @@ function PortImage({targetImg,commentary}) {
   return (
   <div className="work-img">
     <img src={targetImg} alt={targetImg}/>
-        <div className="comment">{commentary}</div>
+    <div className="comment">{commentary}</div>
   </div>
   );
 }

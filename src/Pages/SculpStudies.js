@@ -12,8 +12,8 @@ function SculpStudies() {
       <div className="side"/>
       <div className="work-content">
         <div className="buffer"/>
-        <h1>Content</h1>
         <div className="actual-content">
+          <h1 className="content-name">Content</h1>
           <PortImage targetImg={sculpt1} commentary="hello"/>
           <PortImage targetImg={sculpt2}/>
           <PortImage targetImg={sculpt3}/>

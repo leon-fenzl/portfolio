@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://leonfenzl.com/static/css/main.6babea47.css",
-    "main.js": "https://leonfenzl.com/static/js/main.63df2d51.js",
+    "main.css": "https://leonfenzl.com/static/css/main.1d58238d.css",
+    "main.js": "https://leonfenzl.com/static/js/main.83e77e48.js",
     "static/js/453.3f1fb51b.chunk.js": "https://leonfenzl.com/static/js/453.3f1fb51b.chunk.js",
     "static/media/Portrait.jpg": "https://leonfenzl.com/static/media/Portrait.7103cf7396bc91766db9.jpg",
     "static/media/leon-fenzl-male-base.jpg": "https://leonfenzl.com/static/media/leon-fenzl-male-base.d7fe9058cec1f1fae247.jpg",
@@ -10,12 +10,12 @@
     "static/media/leon-fenzl-esboco-elfa.jpg": "https://leonfenzl.com/static/media/leon-fenzl-esboco-elfa.b06a02937c7e8383a620.jpg",
     "static/media/leon-fenzl-esboco-elfa-2.jpg": "https://leonfenzl.com/static/media/leon-fenzl-esboco-elfa-2.3d6fe24f7bae051247fe.jpg",
     "index.html": "https://leonfenzl.com/index.html",
-    "main.6babea47.css.map": "https://leonfenzl.com/static/css/main.6babea47.css.map",
-    "main.63df2d51.js.map": "https://leonfenzl.com/static/js/main.63df2d51.js.map",
+    "main.1d58238d.css.map": "https://leonfenzl.com/static/css/main.1d58238d.css.map",
+    "main.83e77e48.js.map": "https://leonfenzl.com/static/js/main.83e77e48.js.map",
     "453.3f1fb51b.chunk.js.map": "https://leonfenzl.com/static/js/453.3f1fb51b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6babea47.css",
-    "static/js/main.63df2d51.js"
+    "static/css/main.1d58238d.css",
+    "static/js/main.83e77e48.js"
   ]
 }

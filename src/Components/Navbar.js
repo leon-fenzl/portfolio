@@ -12,11 +12,10 @@ function Navbar() {
           <span>FENZL</span>
         </Link>
         </h1>
-        <h3 className='nav-options'>
+        <h2 className='nav-options'>
           <Link to='/about'>About</Link>
           <Link to='/works'>Works</Link>
-          <Link to='/contact'>Contact</Link>
-        </h3>
+        </h2>
       </div>
       <div className='side'/>
     </nav>
@@ -24,3 +23,6 @@ function Navbar() {
 }
 
 export default Navbar;
+/*
+          <Link to='/contact'>Contact</Link>
+*/
